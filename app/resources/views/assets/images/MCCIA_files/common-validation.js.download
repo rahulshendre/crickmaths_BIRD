@@ -1,0 +1,154 @@
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+                if (form.checkValidity() === true) {
+                    if(form.dataset.nextUrl){
+                        window.location.href = form.dataset.nextUrl;
+                    }else if( form.dataset.targetElementId ) {
+                        if(form.dataset.targetElementId === "billing-details"){
+                            document.getElementById("billing").style.display = "block";
+                            document.getElementById("billing-details").click();
+                        }
+                        else if(form.dataset.targetElementId === "summary-section"){
+                            document.getElementById("reg-form-row").style.display = "none";
+                            document.getElementById("summary-section").style.display = "block";
+                        }
+                        else{
+                            $('#' + form.dataset.targetElementId ).modal();
+                            return false;
+                        }
+
+                    }
+
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+})();
+
+
+// function onRegistrationTypeChange(e) {
+//     var selected = e.target.value;
+//     var organizationName = document.getElementsByClassName("organization-name");
+//     if (selected === 'Individual') {
+//         // document.getElementById("organization").style.display = "none";
+//         //document.getElementById("organization-type").style.display = "none";
+//         setElementsAttributeValue(organizationName, "required", false);
+
+//     } else {
+//         document.getElementById("organization").style.display = "block";
+//         //document.getElementById("organization-type").style.display = "block";
+//         setElementsAttributeValue(organizationName, "required", true);
+
+//     }
+//     if(selected === 'Individual'){
+//         document.getElementById("individual").style.display = "block";
+//     }else {
+//         document.getElementById("individual").style.display = "none";
+//     }
+// }
+
+function setElementsAttributeValue(elements, attribute, value) {
+    for (var element in elements) {
+        elements[element][attribute] = value;
+    }
+}
+
+function onLoginTypeClick(login,forgot) {
+        document.getElementById(login).style.display = "none";
+        document.getElementById(forgot).style.display = "block";
+}
+function onHallEditClick(){
+    document.getElementById("reg-form-row").style.display = "flex";
+    // document.getElementById("p2").setAttribute("aria-expanded", true);
+    // document.getElementById('collapseOne').classList.add('show');
+    document.getElementById("summary-section").style.display = "none";
+    document.getElementById("billing").style.display = "none";
+    document.getElementById("billing-details").click();
+    document.getElementById("basic-details").click();
+}
+
+$( document ).ready(function() {
+    $('#membershipLogin').on('hidden.bs.modal', function (e) {
+        onLoginTypeClick('forgotPassSection','loginSection');
+
+    });
+});
+
+function togglePaymentButtons(chk) {
+    var btnPayNow = document.getElementById("online");
+    var btnPayOffline = document.getElementById("offline");
+    
+    var payfree = document.getElementById("pay0");
+    btnPayNow.disabled = chk.checked === false;
+    btnPayOffline.disabled = chk.checked === false;
+    payfree.disabled = chk.checked === false;
+}
+
+function togglePaymentButtonshall(chk) {
+    var btnPayNow = document.getElementById("btnPayNow");
+    var btnPayOffline = document.getElementById("btnPayOffline");
+    var btnsubmit = document.getElementById("btnsubmit");
+    btnPayNow.disabled = chk.checked === false;
+    btnPayOffline.disabled = chk.checked === false;
+    btnsubmit.disabled = chk.checked === false;
+}
+
+
+function selectTypeField() {
+
+    var selectTypeVal = document.getElementById('selectType').value;
+    if (selectTypeVal === 'None') {
+        document.getElementById("dayWeekMonth").style.display ="none";
+        document.getElementById("totalDuration").style.display ="none";
+
+    }
+    else if(selectTypeVal === 'Single') {
+        document.getElementById("dayWeekMonth").style.display ="block";
+        document.getElementById("totalDuration").style.display ="none";
+
+    }
+    else if(selectTypeVal === 'Multiple') {
+        document.getElementById("dayWeekMonth").style.display ="block";
+        document.getElementById("totalDuration").style.display ="block";
+
+    }
+}
+
+function onDayWeekMonthChange(e) {
+    var selected = e.target.value;
+    if (selected === 'Day') {
+        document.getElementById("selectDay").style.display = "block";
+        document.getElementById("selectWeek").style.display = "none";
+        document.getElementById("selectMonth").style.display = "none";
+
+    } else if (selected === 'Week') {
+        document.getElementById("selectWeek").style.display = "block";
+        document.getElementById("selectDay").style.display = "none";
+        document.getElementById("selectMonth").style.display = "none";
+
+    }
+    else if (selected === 'Month') {
+        document.getElementById("selectMonth").style.display = "block";
+        document.getElementById("selectDay").style.display = "none";
+        document.getElementById("selectWeek").style.display = "none";
+    }
+
+}
+
+function onPassPortCopyChange(e) {
+    var selected = e.target.value;
+    if (selected === 'No') {
+        document.getElementById("passPortCopy").style.display = "none";
+    } else {
+        document.getElementById("passPortCopy").style.display = "block";
+    }
+}

@@ -1,0 +1,35 @@
+1.blanks1 hit playerFour1 fours and playerSix1 sixes in this match. Choose the total number of fours/sixes  below.
+
+2.blanks2 hit playerFour2 fours and playerSix2 sixes in this match. Choose the total score  below.
+
+
+3.	bowler3 bowled bowlerOver1 overs and took bowlerWicket1 wickets  in this match. Choose the total overs/wickets below.
+
+4.	keeper did ‘n’ stumpings , caught ‘n1’ in this match. Total number of dismissals by keeper1 in this match.=(+)
+
+5.	Team1 has lost ‘n’ wickets, how many wickets left?///////////
+
+
+
+1.	Team0 scored tscore0 runs and Team1 scored tscore1 runs. Choose total below
+
+
+2.	Team0 scored tscore0 runs and Team1 scored tscore0 runs. How many more runs to win for Team1? (-)
+
+3.	Team0 scored tscore0 runs in first innings and tscore1 in next. What is the total of the two scores. 
+
+4.	In T20, Team0 scored tscore0 runs but got a penalty of 5. What is the total score?
+
+5.	bowler1 gave bowlerRun1 runs in bowlerOver1 overs, what is the run rate?(/)
+
+
+6.	bowler1 took bowlerWicket1 wickets and bowler2 took bowlerWicket2 wickets, what is total number of wickets lost? (-)
+
+
+6.	Umpire gave wides0 wides and noballs no-balls. Choose the total extra runs below
+ "byes" => "0"
+  "legByes" => "1"
+  "noBalls" => "0"
+  "penalties" => "0"
+  "wides" => "11"
+  "totalExtras" => "12"
