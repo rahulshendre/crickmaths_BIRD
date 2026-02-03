@@ -246,12 +246,12 @@ if (empty($finalcall)) {
     return "check your Internet connection";
 }
 
-$matchLive=Live::where('match_id',$matchID)->get();
-$live_id="";  
+ $matchLive=Live::where('match_id',$matchID)->get();
+         $live_id="";  
 $match_id=$matchID;  // Keep the original matchID
 foreach($matchLive as $matchL){
-    $live_id=$matchL->id;
-    $is_live=$matchL->is_live;
+$live_id=$matchL->id;
+$is_live=$matchL->is_live;
 }
 
 if(!empty($finalcall) && isset($finalcall['data']['getScoreCard']['fullScoreCard'])){
@@ -278,7 +278,7 @@ if(!empty($finalcall) && isset($finalcall['data']['getScoreCard']['fullScoreCard
                 'total' => json_encode($item['total']),
             ]
         );
-    }
+}
 }
 
  $matchLive=Live::where('match_id',$matchID)->get();
@@ -294,9 +294,9 @@ $result=Livematch::where('match_id',$matchID)->get();
 $player="V";
  $level=$req->level;
         return view('answer')->with('questions',$questions)->with('categoty',$categoty_id)->with('grade',$level)->with('matchLive',$matchLive)->with('match_id',$matchID)->with('player',$player);
-    }
+           }
 
-    function replacePlaceholders($question, $replacements)
+ function replacePlaceholders($question, $replacements)
     {
         // Loop through each replacement
         foreach ($replacements as $placeholder => $value) {
@@ -351,21 +351,21 @@ foreach ($team_d as $index => $value) {
         if(isset($team_d[1]) && isset($team_d[1]['teamScore']) && !empty($team_d[1]['teamScore']) && isset($team_d[1]['teamScore'][0])){
             $t_wicket2=$team_d[1]['teamScore'][0]['wickets'] ?? "0";
         } else {
-            $t_wicket2="0";
-        }
+        $t_wicket2="0";
+    }
         
         if(isset($team_d[1]) && isset($team_d[1]['teamScore']) && !empty($team_d[1]['teamScore']) && isset($team_d[1]['teamScore'][0])){
             $battingsc=$team_d[1]['teamScore'][0]['runsScored'] ?? "0";
         } else {
-            $battingsc="0";
-        }
+        $battingsc="0";
+    }
 
-        $TeamOver0=isset($value['teamScore'][0]['overs']) ? round($value['teamScore'][0]['overs']) : 0;
-        $TeamOver1=isset($team_d[1]['teamScore'][0]['overs']) ? round($team_d[1]['teamScore'][0]['overs']) : 0;
+$TeamOver0=isset($value['teamScore'][0]['overs']) ? round($value['teamScore'][0]['overs']) : 0;
+$TeamOver1=isset($team_d[1]['teamScore'][0]['overs']) ? round($team_d[1]['teamScore'][0]['overs']) : 0;
 
         // Add to the result array
         if ($battingTeamShortName) {
-            $t_name[] = $battingTeamShortName;
+        $t_name[] = $battingTeamShortName;
         }
         $t_wicket[]=$t_wicket1;
         $t_wicket[]=$t_wicket2;
@@ -378,8 +378,8 @@ foreach ($team_d as $index => $value) {
 
 // Safely get team short name
 if(isset($team_d[1]) && isset($team_d[1]['teamShortName'])){
-    $battingTeamShor=$team_d[1]['teamShortName'];
-    $t_name[] = $battingTeamShor;
+$battingTeamShor=$team_d[1]['teamShortName'];
+ $t_name[] = $battingTeamShor;
 } elseif(isset($team_d[1]) && isset($team_d[1]['teamScore'][0]['battingTeamShortName'])){
     $battingTeamShor=$team_d[1]['teamScore'][0]['battingTeamShortName'];
     $t_name[] = $battingTeamShor;
@@ -1133,8 +1133,8 @@ if (!empty($finalcall) && isset($finalcall['data']['featurematch'])) {
                     $cricketMatch->match_location = $matchData['venue'];
                     $cricketMatch->team_details = json_encode($matchData['matchScore']);
                     $cricketMatch->save();
-                }
             }
+        }
     }
 }
 
@@ -1223,8 +1223,8 @@ else{
     $std_id = session('std_id');
 
         return view('after-start', ['category'=>$question_category,'liveMatches'=>$liveMatches])->with('teacher_id',$teacher_id)->with('std_id',$std_id);
-}
-
+    }
+ 
     public function  getStartGame(Request $req){
          
          $categoty_id=$req->category;
@@ -1347,8 +1347,8 @@ if (!empty($finalcall) && isset($finalcall['data']['featurematch'])) {
                     $cricketMatch->match_location = $matchData['venue'];
                     $cricketMatch->team_details = json_encode($matchData['matchScore']);
                     $cricketMatch->save();
-                }
             }
+        }
     }
 }
 
@@ -1702,16 +1702,16 @@ if (!empty($scorecardData['data']['getScoreCard']['fullScoreCard'])) {
                     $cricketMatch->match_location = $matchData['venue'];
                     $cricketMatch->team_details = json_encode($matchData['matchScore']);
                     $cricketMatch->save();
-                }
             }
+        }
     }
 }
 
 }catch (Exception $e) {
     Log::error('getDataAuto error: ' . $e->getMessage());
 }
-
-}
+       
+    }
 
 public function getHowzzat(Request $request)
 {
