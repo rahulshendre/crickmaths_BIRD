@@ -14,9 +14,20 @@ class AlterLivesTableMatchIdToString extends Migration
      */
     public function up()
     {
-        // Use raw SQL to safely alter the table structure
-        DB::statement('ALTER TABLE `lives` DROP PRIMARY KEY');
-        DB::statement('ALTER TABLE `lives` ADD COLUMN `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST');
+        // Check if id column exists, if not add it
+        if (!Schema::hasColumn('lives', 'id')) {
+            // Drop primary key if match_id is primary
+            try {
+                DB::statement('ALTER TABLE `lives` DROP PRIMARY KEY');
+            } catch (\Exception $e) {
+                // Primary key might not exist or be on different column
+            }
+            
+            DB::statement('ALTER TABLE `lives` ADD COLUMN `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST');
+        }
+        
+        // Change match_id to VARCHAR to support UUIDs from CricketData API
+        // This works for both numeric IDs (Cricbuzz) and UUIDs (CricketData)
         DB::statement('ALTER TABLE `lives` MODIFY COLUMN `match_id` VARCHAR(255) NULL');
     }
 
