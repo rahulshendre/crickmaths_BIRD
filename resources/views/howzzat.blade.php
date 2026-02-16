@@ -30,12 +30,8 @@
 
 .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 600px!important;
     height: 692px!important;
@@ -381,12 +377,8 @@ opacity: 0px;
 
     .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 500px!important;
     height: 575px!important;
@@ -497,12 +489,8 @@ opacity: 0px;
 
  .image-container {
         content: "";
-<<<<<<< HEAD
         /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-        background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         background-size: cover;
         width: 287px !important;
     height: 338px !important;
@@ -621,12 +609,8 @@ opacity: 0px;
 
  .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 255px!important;
     height: 294px!important;
@@ -661,12 +645,8 @@ opacity: 0px;
 
   .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
      width: 312px!important;
     height: 364px!important;
@@ -694,12 +674,8 @@ opacity: 0px;
 
   .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
    width: 250px !important;
     height: 301px !important;
@@ -899,12 +875,8 @@ opacity: 0px;
 
      .image-container {
         content: "";
-<<<<<<< HEAD
         /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-        background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         background-size: cover;
         width: 426px !important;
     height: 486px !important;
@@ -1022,12 +994,8 @@ opacity: 0px;
 
  .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 439px!important;
     height: 506px!important;
@@ -1143,12 +1111,8 @@ opacity: 0px;
 
  .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 420px !important;
     height: 480px !important;
@@ -1258,12 +1222,8 @@ opacity: 0px;
 
  .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 306px;
     height: 355px;
@@ -1358,12 +1318,8 @@ text-align: center;
 
 .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 563px!important;
     height: 643px!important;
@@ -1402,12 +1358,8 @@ text-align: center;
 
   .image-container {
     content: "";
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 713px!important;
     height: 835px!important;

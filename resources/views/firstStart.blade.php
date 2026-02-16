@@ -8,11 +8,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<<<<<<< HEAD
 <link href="{{config('app.baseURL')}}/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-=======
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 <link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/app.min.css">
 <link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/fontawesome.min.css">
 <link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/style.css">

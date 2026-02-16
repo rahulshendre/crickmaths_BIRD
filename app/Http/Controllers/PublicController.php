@@ -2929,7 +2929,7 @@ if($grade==2)
 
     if (is_float($t_overs[$i])) {
         // Round down the decimal value
-        dd($t_overs);
+        // dd($t_overs);
         $dynamicArray[$key] = floor($t_overs[$i]);
     } else {
         $dynamicArray[$key] = $t_overs[$i];

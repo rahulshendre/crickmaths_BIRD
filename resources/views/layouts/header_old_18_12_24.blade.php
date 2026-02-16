@@ -39,11 +39,7 @@
                 </li>
             </ul>
 
-<<<<<<< HEAD
             <a href="https://cricmaths.com/after-start" class="btn btn-cricket">Play Cricket</a>
-=======
-            <a href="{{config('app.baseURL')}}/after-start" class="btn btn-cricket">Play Cricket</a>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         </div>
     </div>
 </nav> -->

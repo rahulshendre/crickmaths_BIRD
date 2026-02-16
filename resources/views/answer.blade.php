@@ -5,11 +5,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<<<<<<< HEAD
 <link href="../../css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-=======
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 <link rel="stylesheet" href="assets/css/app.min.css">
 <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -3732,15 +3728,12 @@ function resetTimeline() {
 
     // Function to update the timer every second
     function updateTimer() {
-<<<<<<< HEAD
-=======
         // Check if timer element exists
         const timerElement = document.getElementById('timer');
         if (!timerElement) {
             return; // Exit if element doesn't exist
         }
 
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         // Increment seconds
         seconds++;
 
@@ -3762,11 +3755,7 @@ function resetTimeline() {
         const formattedSeconds = seconds.toString().padStart(2, '0');
 
         // Display the time in the timer element
-<<<<<<< HEAD
         document.getElementById('timer').innerHTML = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
-=======
-        timerElement.innerHTML = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     }
 
     // Update the timer every second (1000 milliseconds)

@@ -422,12 +422,8 @@ color: #B70303;
 .profile-card {
     border-radius: 10px;
     /* background-color: #FBE8E8; */
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/pavilion/bg3.png) no-repeat center; */
     background: url(/assets/img/pavilion/bg3.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/pavilion/bg3.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 1px;
     display: flex;
     justify-content: space-between;
@@ -509,12 +505,8 @@ color: #B70303;
 .profile-card {
     border-radius: 10px;
     /* background-color: #FBE8E8; */
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/pavilion/bg3.png) no-repeat center; */
     background: url(/assets/img/pavilion/bg3.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/pavilion/bg3.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 6px;
     display: flex;
     justify-content: space-between;
@@ -549,12 +541,8 @@ color: #B70303;
     justify-content: space-between;
     align-items: center;
     /* background-color: #EFFAE0; */
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/pavilion/bg4.png) no-repeat center; */
     background: url(/assets/img/pavilion/bg4.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/pavilion/bg4.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     border-radius: 25px;
     padding: 1px;
 }
@@ -622,12 +610,8 @@ color: #B70303;
 }
 
 .banner-image-section {
-<<<<<<< HEAD
     /* background-image: url(http://localhost/crickmatch/assets/img/pavilion/bg_img.png); */
     background-image: url(/assets/img/pavilion/bg_img.png);
-=======
-    background-image: url(http://localhost/crickmatch/assets/img/pavilion/bg_img.png);
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -873,12 +857,8 @@ color: #B70303;
 }
 
 .banner-image-section {
-<<<<<<< HEAD
     /* background-image: url(http://localhost/crickmatch/assets/img/pavilion/bg_img.png); */
     background-image: url(/assets/img/pavilion/bg_img.png);
-=======
-    background-image: url(http://localhost/crickmatch/assets/img/pavilion/bg_img.png);
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -1131,12 +1111,8 @@ color: #B70303;
 }
 
 .banner-image-section {
-<<<<<<< HEAD
     /* background-image: url(http://localhost/crickmatch/assets/img/pavilion/bg_img.png); */
     background-image: url(/assets/img/pavilion/bg_img.png);
-=======
-    background-image: url(http://localhost/crickmatch/assets/img/pavilion/bg_img.png);
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     background-position: center;
     height: 400px;

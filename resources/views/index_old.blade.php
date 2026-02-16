@@ -304,22 +304,14 @@ h1{
                         
                      <div class="col-md-6">
 
-<<<<<<< HEAD
 <video width="320" height="240" controls="" poster="https://cricmaths.com/assets/images/thum.png" style="
-=======
-<video width="320" height="240" controls="" poster="{{config('app.baseURL')}}/assets/images/thum.png" style="
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     width: 100%;
     height: 450px;
     
    
     
 ">
-<<<<<<< HEAD
   <source src="https://cricmaths.com/assets/images/e1.mp4" type="video/mp4">
-=======
-  <source src="{{config('app.baseURL')}}/assets/images/e1.mp4" type="video/mp4">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
   <source src="movie.ogg" type="video/ogg">
 
 </video>

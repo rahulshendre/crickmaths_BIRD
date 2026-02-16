@@ -148,7 +148,6 @@ background: #459F01;
                 text-align: center;
                 margin-top: 10px;
             }
-<<<<<<< HEAD
             
             .play-cricket {
                 margin: 5px 0;
@@ -156,101 +155,6 @@ background: #459F01;
                 width: 100%;
                 text-align: center;
             }
-=======
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
-        }
-
-        /* Menu toggle button for mobile */
-        .menu-toggle {
-            display: none;
-            font-size: 24px;
-            cursor: pointer;
-        }
-
-
-        @media (max-width: 768px) {
-
-            .navbar .logo img {
-    max-height: 50px;
-    margin-left: 5%;
-}
-
-.navbar .menu-toggle {
-        display: block;
-        font-size: 50px;
-        cursor: pointer;
-        margin-left: auto;
-        margin-right: 2%;
-    }
-
-
-        }
-
-    @media (min-width: 810px) and (max-width: 1025px) {
-
-        .navbar ul li {
-    margin: 0 19px;
-    font-size: 16px;
-}
-
-.navbar .logo img {
-    max-height: 30px;
-    margin-left: 0%;
-}
-
-.navbar ul li a {
-    font-family: Signika;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 34.5px;
-    text-align: left;
-    color: #000000;
-}
-
-.play-cricket {
-    background: #459F01;
-    color: white;
-    padding: 7px 10px;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-     margin-right: 0%; 
-}
-
-
-
-
-    }
-    </style>
-</head>
-<body>
-
-    <nav class="navbar">
-        <!-- Logo Section -->
-        <div class="logo">
-            <a href="{{config('app.baseURL')}}/"><img src="{{config('app.baseURL')}}/assets/img/image002.png" alt="CricMaths Logo"></a>
-        </div>
-
-        <!-- Menu Toggle Button for Mobile -->
-        <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
-
-        <!-- Menu Items -->
-        <ul>
-            <li><a href="{{config('app.baseURL')}}/">Home</a></li>
-            <li><a href="{{config('app.baseURL')}}/howzzat">Howzzat</a></li>
-            <li><a href="{{config('app.baseURL')}}/pavilion">About Us</a></li>
-            <li><a href="{{config('app.baseURL')}}/gallery">Gallery</a></li>
-            <li><a href="{{config('app.baseURL')}}/cricketlingo">Cricket Lingo</a></li>
-        </ul>
-
-        <!-- Play Button -->
-        <a href="{{config('app.baseURL')}}/after-start" class="play-cricket">Play Cricket</a>
-<<<<<<< HEAD
-        <a href="{{ route('practice.index') }}" class="play-cricket" style="background-color: #b70303; margin-left: 10px;">Practice Mode</a>
-=======
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
         <a href="{{config('app.baseURL')}}/user-dashboard"><img src="{{config('app.baseURL')}}/assets/images/av2.png" alt="" class="img-fluid rounded-circle" style="width: 50px; height: 50px; object-fit: cover;"></a>
 

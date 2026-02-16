@@ -1193,12 +1193,8 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
     background: url(/assets/img/union.png) no-repeat;
-=======
-    background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
     /* width: 100%; */
 }
@@ -1462,23 +1458,15 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
     background: url(/assets/img/union.png) no-repeat;
-=======
-    background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 0hv;
     /* width: 100%; */
 }
 
 .players-section {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center; */
     background: url(/assets/img/home/bg_decision1.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 8%;
     padding-top: 14%;
     border-radius: 15%;
@@ -2500,12 +2488,8 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
     background: url(/assets/img/union.png) no-repeat;
-=======
-    background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
     /* width: 100%; */
 }
@@ -2703,12 +2687,8 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
     background: url(/assets/img/union.png) no-repeat;
-=======
-    background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
     /* width: 100%; */
 }
@@ -3194,12 +3174,8 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
     background: url(/assets/img/union.png) no-repeat;
-=======
-    background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
 }
 .decision-players-section .col-md-5{
@@ -3239,12 +3215,8 @@ nav a{
 }
 
 .players-section {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center; */
     background: url(/assets/img/home/bg_decision1.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 8%;
     padding-top: 14%;
     border-radius: 8%;
@@ -3473,12 +3445,8 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
     background: url(/assets/img/union.png) no-repeat;
-=======
-    background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
 }
 .decision-players-section .col-md-5{
@@ -3518,12 +3486,8 @@ nav a{
     }
 
 .players-section {
-<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center; */
     background: url(/assets/img/home/bg_decision1.png) no-repeat center;
-=======
-    background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 8%;
     padding-top: 14%;
     border-radius: 8%;
@@ -3849,11 +3813,7 @@ nav a{
         @media (max-width: 900px) {
             .popup-content img {
                 overflow: hidden;
-<<<<<<< HEAD
                 content: url('https://cricmaths.com/testcric/assets/mascot/mobilepop1.png') !important; /* Mobile image */
-=======
-                content: url('{{config('app.baseURL')}}/assets/mascot/mobilepop1.png') !important; /* Mobile image */
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
             }
             
             .popup-content img {
@@ -3894,11 +3854,7 @@ nav a{
     <div class="popup-container" id="popup">
         <div class="popup-content">
             <span class="close-btn" id="closePopup">&times;</span>
-<<<<<<< HEAD
             <img src="https://cricmaths.com/testcric/assets/mascot/graphicspop1.png" alt="Popup Image">
-=======
-            <img src="{{config('app.baseURL')}}/assets/mascot/graphicspop1.png" alt="Popup Image">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         </div>
     </div>
 <section class="section_one" >
@@ -4039,11 +3995,7 @@ nav a{
 <h4>Let's Play</h4>
 <p>Let’s show you how to be a CricMaths Champ</p>
 </div>
-<<<<<<< HEAD
       <a href="{{config('app.baseURL')}}/howzzat"><div class="howzzat" style="background-color:#459F01;;">
-=======
-      <a href="howzzat"><div class="howzzat" style="background-color:#459F01;;">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
           <h3>Howzzat! Work?</h3>
       </div></a>
  
@@ -4140,17 +4092,10 @@ nav a{
                 <h2 class="text-danger mb-4" style="display:none;"></h2>
                 <div class="placeholder-video rounded-3 p-4">
                    
-<<<<<<< HEAD
 <video  controls="" poster="https://cricmaths.com/assets/images/thum.png" style="
     width: 80%;
     height: 250px;">
   <source src="https://cricmaths.com/assets/images/e1.mp4" type="video/mp4">
-=======
-<video  controls="" poster="{{config('app.baseURL')}}/assets/images/thum.png" style="
-    width: 80%;
-    height: 250px;">
-  <source src="{{config('app.baseURL')}}/assets/images/e1.mp4" type="video/mp4">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
   <source src="movie.ogg" type="video/ogg">
 
 </video>
@@ -4203,11 +4148,7 @@ nav a{
                <h3 class="vs-tem">vs</h3>              
                         @endif
                 @endforeach
-<<<<<<< HEAD
                     <a href="{{config('app.baseURL')}}/after-start"><button class="btn btn-danger">Play</button></a>
-=======
-                    <a href="after-start"><button class="btn btn-danger">Play</button></a>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
                 </div>
 
 
@@ -4281,11 +4222,7 @@ nav a{
                                                             <h3 class="vs-tem">vs</h3>
                                                         @endif
                                                     @endforeach
-<<<<<<< HEAD
                                                     <a href="{{config('app.baseURL')}}/after-start"><button class="btn btn-danger">Play</button></a>
-=======
-                                                    <a href="after-start"><button class="btn btn-danger">Play</button></a>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
                                                 </div>
                                             </div>
                                             @php
@@ -4309,7 +4246,6 @@ nav a{
                     </a>
                 </div>
             </div>
-<<<<<<< HEAD
             
             @php
                 $hasValidMatches = false;
@@ -4333,8 +4269,6 @@ nav a{
                     </a>
                 </div>
             @endif
-=======
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         </div>
     </div>
 </section>

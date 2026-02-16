@@ -602,11 +602,7 @@ left: -6%;
                     isset($teamDetails[0]['teamScore'][0]['runsScored']) && $teamDetails[0]['teamScore'][0]['runsScored'] > 0 &&
                     isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0)
                     <label for="{{$match->id}}">
-<<<<<<< HEAD
                         <div class="match-item">
-=======
-                        <div class="match-item" data-match-id="{{$match->match_id}}">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
                             <div class="liveOption">
                                 <h6 style="color:#ffff">Match: {{$serialNum}}</h6>
                                 @if($match->is_live=='completed')
@@ -631,18 +627,13 @@ left: -6%;
                                 @endif
                             @endforeach
                         </div>
-<<<<<<< HEAD
                         <h5>Click To Start</h5>
-=======
-                        <h5 data-match-id="{{$match->match_id}}">Click To Start</h5>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
                     </label>
                     @php
                         $serialNum++;
                     @endphp
                 @endif
             @endforeach
-<<<<<<< HEAD
             
             @php
                 $hasValidLiveMatch = false;
@@ -666,87 +657,12 @@ left: -6%;
                     </a>
                 </div>
             @endif
-=======
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
-        </div>
-    </div>
-
-    <!-- Click to Start Button -->
-</main>
-
-   <!-- <script src="assets/js/vendor/jquery-3.6.0.min.js"></script> -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-    let selectedGrade = null;  // Track if a grade is selected
-
-    // When a grade is clicked
-    $('.item').on('click', function () {
-        // Remove 'selected' class from all other items and add it to the clicked item
-        $('.item').removeClass('selected');
-        $(this).addClass('selected');
-
-        // Store the selected grade (data-level attribute in this case)
-        selectedGrade = $(this).data('level');
-
-        // Enable/Disable click on h5 based on whether a grade is selected
-        if (selectedGrade) {
-            // Enable click on <h5> if a grade is selected
-            $('h5').addClass('clickable');  // Add class to make it clickable
-        } else {
-            // Disable click on <h5> if no grade is selected
-            $('h5').removeClass('clickable');  // Remove class to make it non-clickable
-        }
-    });
-
-    // Click event for <h5> ("Click to start") when a grade is selected
-    $('h5').on('click', function (event) {
-<<<<<<< HEAD
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            event.preventDefault();
-            alert("Please select a grade first!"); // Optional alert
-            return;
-        }
-
-        // Otherwise, proceed with the action (as a grade is selected)
-        var local = $(this).closest('label').find('.matchid').attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
-        var selectedValue = $('input[name="selectedMatch"]:checked').val();
-=======
-        // Stop event propagation
-        event.stopPropagation();
-        event.preventDefault();
-        
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            alert("Please select a grade first!"); // Optional alert
-            return false;
-        }
-
-        // Get match_id directly from data attribute
-        var selectedValue = $(this).data('match-id');
-        var radioButton = $(this).closest('label').find('.matchid');
-        var local = radioButton.attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
         var selectedGridItem = $('.item.selected');
         var selectedLevel = selectedGridItem.data('level') || null;
 
         // Redirect based on the selected values
         window.location.href = '{{config('app.baseURL')}}/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
-<<<<<<< HEAD
 =======
         
         return false;
@@ -761,7 +677,6 @@ left: -6%;
     });
 
      $('.match-item').on('click', function (event) {
-<<<<<<< HEAD
         // If no grade is selected, prevent the default action (click)
         if (!selectedGrade) {
             event.preventDefault();
@@ -775,36 +690,12 @@ left: -6%;
         var teacher_id = '{{$teacher_id}}';
         var std_id = '{{$std_id}}';
         var selectedValue = $('input[name="selectedMatch"]:checked').val();
-=======
-        // Stop event propagation to prevent label's default behavior
-        event.stopPropagation();
-        event.preventDefault();
-        
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            alert("Please select a grade first!"); // Optional alert
-            return false;
-        }
-
-        // Get match_id directly from data attribute - THIS IS THE KEY FIX
-        var selectedValue = $(this).data('match-id');
-        var radioButton = $(this).closest('label').find('.matchid');
-        var local = radioButton.attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
         var selectedGridItem = $('.item.selected');
         var selectedLevel = selectedGridItem.data('level') || null;
 
         // Redirect based on the selected values
         window.location.href = '{{config('app.baseURL')}}/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
-<<<<<<< HEAD
-=======
-        
-        return false;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     });
 });
 
@@ -832,7 +723,6 @@ $(document).ready(function () {
 
     // Click event for <h5> ("Click to start") when a grade is selected
     $('h5').on('click', function (event) {
-<<<<<<< HEAD
         // If no grade is selected, prevent the default action (click)
         if (!selectedGrade) {
             event.preventDefault();
@@ -846,36 +736,12 @@ $(document).ready(function () {
         var teacher_id = '{{$teacher_id}}';
         var std_id = '{{$std_id}}';
         var selectedValue = $('input[name="selectedMatch"]:checked').val();
-=======
-        // Stop event propagation
-        event.stopPropagation();
-        event.preventDefault();
-        
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            alert("Please select a grade first!"); // Optional alert
-            return false;
-        }
-
-        // Get match_id directly from data attribute
-        var selectedValue = $(this).data('match-id');
-        var radioButton = $(this).closest('label').find('.matchid');
-        var local = radioButton.attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
         var selectedGridItem = $('.item.selected');
         var selectedLevel = selectedGridItem.data('level') || null;
 
         // Redirect based on the selected values
         window.location.href = '{{config('app.baseURL')}}/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
-<<<<<<< HEAD
-=======
-        
-        return false;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     });
 
     // Prevent right-click or context menu when <h5> is not clickable
@@ -976,7 +842,6 @@ $("#siteloader").html('<object data="https://www.cricbuzz.com" />');
 </script>
 <script>
     $(document).ready(function() {
-<<<<<<< HEAD
     $('.matchid').on('click',function(){
           var local= $(this).attr('class')
           var value=  $('#avater').val();
@@ -995,39 +860,13 @@ var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the '
                 var selectedLevel = null; // No level selected yet
             }
       // alert(selectedLevel);
-=======
-    // Removed .matchid click handler to prevent conflicts with .match-item handler
-    // The .match-item handler now handles all match clicks using data-match-id attribute
-    // $('.matchid').on('click',function(){
-    //       var local= $(this).attr('class')
-    //       var value=  $('#avater').val();
-    // if(value==""){
-    //     var value=$('.mainImg img').attr('src');
-    // }
-    //         var teacher_id='{{$teacher_id}}';
-    //         var std_id='{{$std_id}}';
-    // var selectedValue = $(this).val(); // Get value directly from the clicked radio button
-    //
-    // var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the 'selected' class
-    //         if (selectedGridItem.length > 0) {
-    //             var selectedLevel = selectedGridItem.data('level'); // Get the 'data-level' value
-    //         } else {
-    //             var selectedLevel = null; // No level selected yet
-    //         }
-    //   // alert(selectedLevel);
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
 
   
       
 
-<<<<<<< HEAD
             window.location.href = '{{config('app.baseURL')}}/answer?category='+local+'&avatar='+value+'&selectedValue='+selectedValue+'&level='+selectedLevel+'&teacher_id='+teacher_id+'&std_id='+std_id+'';
     })
-=======
-    //     window.location.href = '{{config('app.baseURL')}}/answer?category='+local+'&avatar='+value+'&selectedValue='+selectedValue+'&level='+selectedLevel+'&teacher_id='+teacher_id+'&std_id='+std_id+'';
-    // })
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
    })
 </script>
 <script>
