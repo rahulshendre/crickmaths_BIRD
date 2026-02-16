@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/app.min.css">
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/fontawesome.min.css">
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/style.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/app.min.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/style.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -293,7 +293,7 @@ body {
    .pickAvatar{
     font-size: 20px;
    }
-@keyframes textclip {
+@keyframes  textclip {
   to {
     background-position: 200% center;
   }
@@ -304,7 +304,7 @@ body {
 
 }
 
-@keyframes blinker {
+@keyframes  blinker {
   50% {
     opacity: 0;
   }
@@ -455,7 +455,7 @@ a{
 .teamName img{
     height: 26px;
 }
-@media  screen and (max-width: 1400px) {
+@media    screen and (max-width: 1400px) {
 .h6, h6 {
     font-size: 20px;
 }
@@ -467,7 +467,7 @@ a{
     }
 }
 
-@media  screen and (max-width: 1299px) {
+@media    screen and (max-width: 1299px) {
 .slick-arrow.slick-next {
     left: 100%;
     font-size: 9px;
@@ -553,7 +553,7 @@ left: -6%;
 <main>
     <ul class="switchbtn">
         <li> 
-            <a type="button" href="{{config('app.baseURL')}}" class="vs-btn">
+            <a type="button" href="<?php echo e(config('app.baseURL')); ?>" class="vs-btn">
                 <i class="fa fa-home" style="font-size:30px;color: white;"></i>
             </a>
         </li>
@@ -591,83 +591,49 @@ left: -6%;
 
     <div class="container">
         <div id="matches-slider">
-            @php
+            <?php
                 $serialNum = 1;
-            @endphp
-            @foreach ($liveMatches as $key=>$match)
-                @php
+            ?>
+            <?php $__currentLoopData = $liveMatches; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key=>$match): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php
                     $teamDetails = json_decode($match['team_details'], true);
-                @endphp
-                @if ($match->is_live && 
+                ?>
+                <?php if($match->is_live && 
                     isset($teamDetails[0]['teamScore'][0]['runsScored']) && $teamDetails[0]['teamScore'][0]['runsScored'] > 0 &&
-                    isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0)
-                    <label for="{{$match->id}}">
-<<<<<<< HEAD
-                        <div class="match-item">
-=======
-                        <div class="match-item" data-match-id="{{$match->match_id}}">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+                    isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0): ?>
+                    <label for="<?php echo e($match->id); ?>">
+                        <div class="match-item" data-match-id="<?php echo e($match->match_id); ?>">
                             <div class="liveOption">
-                                <h6 style="color:#ffff">Match: {{$serialNum}}</h6>
-                                @if($match->is_live=='completed')
+                                <h6 style="color:#ffff">Match: <?php echo e($serialNum); ?></h6>
+                                <?php if($match->is_live=='completed'): ?>
                                     <h6 style="color:red">Completed</h6>
-                                @else
+                                <?php else: ?>
                                     <h6 style="color:red">Live</h6>
-                                @endif
-                                <input type="radio" name="selectedMatch" id="{{$match->id}}" class="matchid" onchange="showHideContent()" value="{{$match->match_id}}" style="display:none">
+                                <?php endif; ?>
+                                <input type="radio" name="selectedMatch" id="<?php echo e($match->id); ?>" class="matchid" onchange="showHideContent()" value="<?php echo e($match->match_id); ?>" style="display:none">
                             </div>
                             
-                            @foreach ($teamDetails as $key => $team)
-                                <div class="teamsflex{{$key}}">
-                                    <h6 class="teamName">{{ $team['teamFullName'] }}</h6>
+                            <?php $__currentLoopData = $teamDetails; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $team): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                <div class="teamsflex<?php echo e($key); ?>">
+                                    <h6 class="teamName"><?php echo e($team['teamFullName']); ?></h6>
                                     <div class="team-info">
-                                        @if (isset($team['teamScore'][0]))
-                                            <p>Runs Scored: {{ $team['teamScore'][0]['runsScored'] }}/{{ $team['teamScore'][0]['wickets'] }}</p>
-                                        @endif
+                                        <?php if(isset($team['teamScore'][0])): ?>
+                                            <p>Runs Scored: <?php echo e($team['teamScore'][0]['runsScored']); ?>/<?php echo e($team['teamScore'][0]['wickets']); ?></p>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
-                                @if($key == 0)
+                                <?php if($key == 0): ?>
                                     <h1 class="vs-tem">vs</h1>
-                                @endif
-                            @endforeach
+                                <?php endif; ?>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </div>
-<<<<<<< HEAD
-                        <h5>Click To Start</h5>
-=======
-                        <h5 data-match-id="{{$match->match_id}}">Click To Start</h5>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+                        <h5 data-match-id="<?php echo e($match->match_id); ?>">Click To Start</h5>
                     </label>
-                    @php
+                    <?php
                         $serialNum++;
-                    @endphp
-                @endif
-            @endforeach
-<<<<<<< HEAD
-            
-            @php
-                $hasValidLiveMatch = false;
-                foreach ($liveMatches as $match) {
-                    $teamDetails = json_decode($match->team_details, true);
-                    if ($match->is_live && 
-                        isset($teamDetails[0]['teamScore'][0]['runsScored']) && $teamDetails[0]['teamScore'][0]['runsScored'] > 0 &&
-                        isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0) {
-                        $hasValidLiveMatch = true;
-                        break;
-                    }
-                }
-            @endphp
-            
-            @if(!$hasValidLiveMatch)
-                <div style="text-align: center; padding: 40px; margin-top: 30px;">
-                    <h3 style="color: #fff; margin-bottom: 20px; font-family: 'Baloo Da 2', sans-serif;">No Live Matches Available</h3>
-                    <p style="color: #fff; margin-bottom: 30px; font-family: 'Baloo Da 2', sans-serif;">Practice your math skills while waiting for live matches!</p>
-                    <a href="{{ route('practice.index') }}" style="background-color: #b70303; color: white; padding: 15px 40px; font-size: 1.3rem; border-radius: 30px; text-decoration: none; display: inline-block; font-weight: 600; font-family: 'Baloo Da 2', sans-serif; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        🎯 Practice Mode
-                    </a>
-                </div>
-            @endif
-=======
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+                    ?>
+                <?php endif; ?>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </div>
     </div>
 
@@ -707,21 +673,6 @@ left: -6%;
 
     // Click event for <h5> ("Click to start") when a grade is selected
     $('h5').on('click', function (event) {
-<<<<<<< HEAD
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            event.preventDefault();
-            alert("Please select a grade first!"); // Optional alert
-            return;
-        }
-
-        // Otherwise, proceed with the action (as a grade is selected)
-        var local = $(this).closest('label').find('.matchid').attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
-        var selectedValue = $('input[name="selectedMatch"]:checked').val();
-=======
         // Stop event propagation
         event.stopPropagation();
         event.preventDefault();
@@ -737,20 +688,16 @@ left: -6%;
         var radioButton = $(this).closest('label').find('.matchid');
         var local = radioButton.attr('class');
         var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+        var teacher_id = '<?php echo e($teacher_id); ?>';
+        var std_id = '<?php echo e($std_id); ?>';
 
         var selectedGridItem = $('.item.selected');
         var selectedLevel = selectedGridItem.data('level') || null;
 
         // Redirect based on the selected values
-        window.location.href = '{{config('app.baseURL')}}/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
-<<<<<<< HEAD
-=======
+        window.location.href = '<?php echo e(config('app.baseURL')); ?>/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
         
         return false;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     });
 
     // Prevent right-click or context menu when <h5> is not clickable
@@ -761,21 +708,6 @@ left: -6%;
     });
 
      $('.match-item').on('click', function (event) {
-<<<<<<< HEAD
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            event.preventDefault();
-            alert("Please select a grade first!"); // Optional alert
-            return;
-        }
-
-        // Otherwise, proceed with the action (as a grade is selected)
-        var local = $(this).closest('label').find('.matchid').attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
-        var selectedValue = $('input[name="selectedMatch"]:checked').val();
-=======
         // Stop event propagation to prevent label's default behavior
         event.stopPropagation();
         event.preventDefault();
@@ -791,20 +723,16 @@ left: -6%;
         var radioButton = $(this).closest('label').find('.matchid');
         var local = radioButton.attr('class');
         var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+        var teacher_id = '<?php echo e($teacher_id); ?>';
+        var std_id = '<?php echo e($std_id); ?>';
 
         var selectedGridItem = $('.item.selected');
         var selectedLevel = selectedGridItem.data('level') || null;
 
         // Redirect based on the selected values
-        window.location.href = '{{config('app.baseURL')}}/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
-<<<<<<< HEAD
-=======
+        window.location.href = '<?php echo e(config('app.baseURL')); ?>/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
         
         return false;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     });
 });
 
@@ -832,21 +760,6 @@ $(document).ready(function () {
 
     // Click event for <h5> ("Click to start") when a grade is selected
     $('h5').on('click', function (event) {
-<<<<<<< HEAD
-        // If no grade is selected, prevent the default action (click)
-        if (!selectedGrade) {
-            event.preventDefault();
-            alert("Please select a grade first!"); // Optional alert
-            return;
-        }
-
-        // Otherwise, proceed with the action (as a grade is selected)
-        var local = $(this).closest('label').find('.matchid').attr('class');
-        var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
-        var selectedValue = $('input[name="selectedMatch"]:checked').val();
-=======
         // Stop event propagation
         event.stopPropagation();
         event.preventDefault();
@@ -862,20 +775,16 @@ $(document).ready(function () {
         var radioButton = $(this).closest('label').find('.matchid');
         var local = radioButton.attr('class');
         var value = $('#avater').val() || $('.mainImg img').attr('src');
-        var teacher_id = '{{$teacher_id}}';
-        var std_id = '{{$std_id}}';
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+        var teacher_id = '<?php echo e($teacher_id); ?>';
+        var std_id = '<?php echo e($std_id); ?>';
 
         var selectedGridItem = $('.item.selected');
         var selectedLevel = selectedGridItem.data('level') || null;
 
         // Redirect based on the selected values
-        window.location.href = '{{config('app.baseURL')}}/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
-<<<<<<< HEAD
-=======
+        window.location.href = '<?php echo e(config('app.baseURL')); ?>/answer?category=' + local + '&avatar=' + value + '&selectedValue=' + selectedValue + '&level=' + selectedLevel + '&teacher_id=' + teacher_id + '&std_id=' + std_id;
         
         return false;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     });
 
     // Prevent right-click or context menu when <h5> is not clickable
@@ -976,26 +885,6 @@ $("#siteloader").html('<object data="https://www.cricbuzz.com" />');
 </script>
 <script>
     $(document).ready(function() {
-<<<<<<< HEAD
-    $('.matchid').on('click',function(){
-          var local= $(this).attr('class')
-          var value=  $('#avater').val();
-if(value==""){
-    var value=$('.mainImg img').attr('src');
-}
-        var teacher_id='{{$teacher_id}}';
-        var std_id='{{$std_id}}';
-var selectedValue = document.querySelector('input[name="selectedMatch"]:checked').value;
-
-
-var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the 'selected' class
-            if (selectedGridItem.length > 0) {
-                var selectedLevel = selectedGridItem.data('level'); // Get the 'data-level' value
-            } else {
-                var selectedLevel = null; // No level selected yet
-            }
-      // alert(selectedLevel);
-=======
     // Removed .matchid click handler to prevent conflicts with .match-item handler
     // The .match-item handler now handles all match clicks using data-match-id attribute
     // $('.matchid').on('click',function(){
@@ -1004,8 +893,8 @@ var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the '
     // if(value==""){
     //     var value=$('.mainImg img').attr('src');
     // }
-    //         var teacher_id='{{$teacher_id}}';
-    //         var std_id='{{$std_id}}';
+    //         var teacher_id='<?php echo e($teacher_id); ?>';
+    //         var std_id='<?php echo e($std_id); ?>';
     // var selectedValue = $(this).val(); // Get value directly from the clicked radio button
     //
     // var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the 'selected' class
@@ -1015,19 +904,13 @@ var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the '
     //             var selectedLevel = null; // No level selected yet
     //         }
     //   // alert(selectedLevel);
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
 
   
       
 
-<<<<<<< HEAD
-            window.location.href = '{{config('app.baseURL')}}/answer?category='+local+'&avatar='+value+'&selectedValue='+selectedValue+'&level='+selectedLevel+'&teacher_id='+teacher_id+'&std_id='+std_id+'';
-    })
-=======
-    //     window.location.href = '{{config('app.baseURL')}}/answer?category='+local+'&avatar='+value+'&selectedValue='+selectedValue+'&level='+selectedLevel+'&teacher_id='+teacher_id+'&std_id='+std_id+'';
+    //     window.location.href = '<?php echo e(config('app.baseURL')); ?>/answer?category='+local+'&avatar='+value+'&selectedValue='+selectedValue+'&level='+selectedLevel+'&teacher_id='+teacher_id+'&std_id='+std_id+'';
     // })
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
    })
 </script>
 <script>
@@ -1120,3 +1003,4 @@ var selectedGridItem = $('.item.selected'); // Assuming the grid item gets the '
         });
     </script> -->
 
+<?php /**PATH /Users/rahulshendre/Desktop/Coding/PlanetRead/Crickmath/cricmaths_web/resources/views/after-start.blade.php ENDPATH**/ ?>

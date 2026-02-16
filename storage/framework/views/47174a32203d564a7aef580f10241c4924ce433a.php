@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="{{config('app.baseURL')}}/assets/img/image002.png" alt="CricMaths Logo">
+            <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/image002.png" alt="CricMaths Logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,11 +39,7 @@
                 </li>
             </ul>
 
-<<<<<<< HEAD
-            <a href="https://cricmaths.com/after-start" class="btn btn-cricket">Play Cricket</a>
-=======
-            <a href="{{config('app.baseURL')}}/after-start" class="btn btn-cricket">Play Cricket</a>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+            <a href="<?php echo e(config('app.baseURL')); ?>/after-start" class="btn btn-cricket">Play Cricket</a>
         </div>
     </div>
 </nav> -->
@@ -70,7 +66,8 @@
 
         .navbar .logo img {
             max-height: 50px;
-                            margin-left: 60%;
+             /*margin-left: 60%;*/
+           margin-left: 15%;
 
         }
 
@@ -111,8 +108,8 @@ background: #459F01;
             text-decoration: none;
             font-weight: bold;
             font-size: 16px;
-            margin-right: 10%;
-        }
+/*            margin-right: 10%;
+*/        }
 
         .play-btn:hover {
             background-color: #45a049;
@@ -223,7 +220,7 @@ background: #459F01;
     <nav class="navbar">
         <!-- Logo Section -->
         <div class="logo">
-            <a href="{{config('app.baseURL')}}/"><img src="{{config('app.baseURL')}}/assets/img/image002.png" alt="CricMaths Logo"></a>
+            <a href="<?php echo e(config('app.baseURL')); ?>/"><img src="<?php echo e(config('app.baseURL')); ?>/assets/img/image002.png" alt="CricMaths Logo"></a>
         </div>
 
         <!-- Menu Toggle Button for Mobile -->
@@ -231,15 +228,26 @@ background: #459F01;
 
         <!-- Menu Items -->
         <ul>
-            <li><a href="{{config('app.baseURL')}}/">Home</a></li>
-            <li><a href="{{config('app.baseURL')}}/howzzat">Howzzat</a></li>
-            <li><a href="{{config('app.baseURL')}}/pavilion">About Us</a></li>
-            <li><a href="{{config('app.baseURL')}}/gallery">Gallery</a></li>
-            <li><a href="{{config('app.baseURL')}}/cricketlingo">Cricket Lingo</a></li>
+            <li><a href="<?php echo e(config('app.baseURL')); ?>/">Home</a></li>
+            <li><a href="<?php echo e(config('app.baseURL')); ?>/howzzat">Howzzat</a></li>
+            <li><a href="<?php echo e(config('app.baseURL')); ?>/pavilion">About Us</a></li>
+            <li><a href="<?php echo e(config('app.baseURL')); ?>/gallery">Gallery</a></li>
+            <li><a href="<?php echo e(config('app.baseURL')); ?>/cricketlingo">Cricket Lingo</a></li>
         </ul>
 
         <!-- Play Button -->
-        <a href="{{config('app.baseURL')}}/after-start" class="play-cricket">Play Cricket</a>
+        <a href="<?php echo e(config('app.baseURL')); ?>/after-start" class="play-cricket">Play Cricket</a>
+
+        <a href="<?php echo e(config('app.baseURL')); ?>/user-dashboard"><img src="<?php echo e(config('app.baseURL')); ?>/assets/images/av2.png" alt="" class="img-fluid rounded-circle" style="width: 50px; height: 50px; object-fit: cover;"></a>
+
+          <div id="custom_translate">
+          <select id="languageSwitcher" onchange="translatePage()">
+        <option value="">Select Language</option>
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="mr">Marathi</option>
+    </select>
+</div> 
     </nav>
 
     <script>
@@ -253,3 +261,4 @@ background: #459F01;
 
 
 
+<?php /**PATH /Users/rahulshendre/Desktop/Coding/PlanetRead/Crickmath/cricmaths_web/resources/views/layouts/header.blade.php ENDPATH**/ ?>

@@ -1,5 +1,4 @@
-@extends('layouts.app')
-@section('content')
+<?php $__env->startSection('content'); ?>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <style type="text/css">
@@ -111,7 +110,7 @@
     margin-right: 5px; /* Space between dot and text */
 }
 
-@keyframes blink {
+@keyframes  blink {
     0%, 100% {
         opacity: 1; /* Fully visible */
     }
@@ -244,7 +243,7 @@
     margin-top: -3%!important;
 }
 
-@media only screen and (max-width: 700px) {
+@media  only screen and (max-width: 700px) {
 
 .col-md-7 {
     -ms-flex: 0 0 100% !important;
@@ -380,7 +379,7 @@ color: #FFFFFF!important;
 
 
 .testi {
-   background: url('{{ asset('assets/img/vector_testominal.png') }}') no-repeat center;
+   background: url('<?php echo e(asset('assets/img/vector_testominal.png')); ?>') no-repeat center;
     background-size: cover; /* or contain */
     padding-top: 50px; /* Adjust as needed */
  border-radius: 20px;
@@ -390,7 +389,7 @@ color: #FFFFFF!important;
 .placeholder-video {
          
 
-  background: url('{{ asset('assets/img/rectangle_test.png') }}') no-repeat center;
+  background: url('<?php echo e(asset('assets/img/rectangle_test.png')); ?>') no-repeat center;
 
     border: 1px solid #ddd;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -445,7 +444,7 @@ img {
 
 .upcoming-match {
 
-     background: url('{{ asset('assets/img/bg_um.png') }}') no-repeat center;
+     background: url('<?php echo e(asset('assets/img/bg_um.png')); ?>') no-repeat center;
     background-size: cover; /* or contain */
 
 }
@@ -504,7 +503,7 @@ text-align: center;
 }
 
 .col-md-2 .card{
-     background: url('{{ asset('assets/img/home/play_bg.png') }}') no-repeat center;
+     background: url('<?php echo e(asset('assets/img/home/play_bg.png')); ?>') no-repeat center;
     background-size: cover;
     padding:5% !important;
  }
@@ -537,7 +536,7 @@ color: #817676;
 }
 
 .decision-section{
-    background: url('{{ asset('assets/img/home/bg_decision.png') }}') no-repeat center;
+    background: url('<?php echo e(asset('assets/img/home/bg_decision.png')); ?>') no-repeat center;
     padding-top:10%;
     border-radius:15%;
 
@@ -594,7 +593,7 @@ margin-top: -18%;
 
 
 .players-section{
-    background: url('{{ asset('assets/img/home/bg_decision1.png') }}') no-repeat center;
+    background: url('<?php echo e(asset('assets/img/home/bg_decision1.png')); ?>') no-repeat center;
     padding:8%;
     padding-top:14%;
     border-radius:15%;
@@ -679,7 +678,7 @@ margin-right: 8%;
 */}
 
 .section_one-bg {
-    background: url('{{ asset('assets/img/union_one.png') }}') no-repeat;
+    background: url('<?php echo e(asset('assets/img/union_one.png')); ?>') no-repeat;
    
     width: 100%; /* or any width you need */
 }
@@ -1193,12 +1192,7 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
-    background: url(/assets/img/union.png) no-repeat;
-=======
     background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
     /* width: 100%; */
 }
@@ -1462,23 +1456,13 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
-    background: url(/assets/img/union.png) no-repeat;
-=======
     background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 0hv;
     /* width: 100%; */
 }
 
 .players-section {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center; */
-    background: url(/assets/img/home/bg_decision1.png) no-repeat center;
-=======
     background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 8%;
     padding-top: 14%;
     border-radius: 15%;
@@ -2500,12 +2484,7 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
-    background: url(/assets/img/union.png) no-repeat;
-=======
     background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
     /* width: 100%; */
 }
@@ -2703,12 +2682,7 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
-    background: url(/assets/img/union.png) no-repeat;
-=======
     background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
     /* width: 100%; */
 }
@@ -3194,12 +3168,7 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
-    background: url(/assets/img/union.png) no-repeat;
-=======
     background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
 }
 .decision-players-section .col-md-5{
@@ -3239,12 +3208,7 @@ nav a{
 }
 
 .players-section {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center; */
-    background: url(/assets/img/home/bg_decision1.png) no-repeat center;
-=======
     background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 8%;
     padding-top: 14%;
     border-radius: 8%;
@@ -3473,12 +3437,7 @@ nav a{
         }
 
         .section_one-bg {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat; */
-    background: url(/assets/img/union.png) no-repeat;
-=======
     background: url(http://localhost/crickmatch/assets/img/union.png) no-repeat;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     height: 800px;
 }
 .decision-players-section .col-md-5{
@@ -3518,12 +3477,7 @@ nav a{
     }
 
 .players-section {
-<<<<<<< HEAD
-    /* background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center; */
-    background: url(/assets/img/home/bg_decision1.png) no-repeat center;
-=======
     background: url(http://localhost/crickmatch/assets/img/home/bg_decision1.png) no-repeat center;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     padding: 8%;
     padding-top: 14%;
     border-radius: 8%;
@@ -3849,11 +3803,7 @@ nav a{
         @media (max-width: 900px) {
             .popup-content img {
                 overflow: hidden;
-<<<<<<< HEAD
-                content: url('https://cricmaths.com/testcric/assets/mascot/mobilepop1.png') !important; /* Mobile image */
-=======
-                content: url('{{config('app.baseURL')}}/assets/mascot/mobilepop1.png') !important; /* Mobile image */
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+                content: url('<?php echo e(config('app.baseURL')); ?>/assets/mascot/mobilepop1.png') !important; /* Mobile image */
             }
             
             .popup-content img {
@@ -3894,11 +3844,7 @@ nav a{
     <div class="popup-container" id="popup">
         <div class="popup-content">
             <span class="close-btn" id="closePopup">&times;</span>
-<<<<<<< HEAD
-            <img src="https://cricmaths.com/testcric/assets/mascot/graphicspop1.png" alt="Popup Image">
-=======
-            <img src="{{config('app.baseURL')}}/assets/mascot/graphicspop1.png" alt="Popup Image">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+            <img src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/graphicspop1.png" alt="Popup Image">
         </div>
     </div>
 <section class="section_one" >
@@ -3906,15 +3852,15 @@ nav a{
         <div class="row">
             <div class="col-md-6 section_one_vector" style=" text-align: center;">
 
-                <img src="{{config('app.baseURL')}}/assets/img/vector_outline.png" class="cricket-bat" alt="Cricket bat" style="width:60%;">
-                <img src="{{config('app.baseURL')}}/assets/img/vector_outline_2.png" class="cricket-bat" alt="Cricket bat" style="width:18%; margin-top: -79%;
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/vector_outline.png" class="cricket-bat" alt="Cricket bat" style="width:60%;">
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/vector_outline_2.png" class="cricket-bat" alt="Cricket bat" style="width:18%; margin-top: -79%;
     margin-left: 46%;">
 
-                <img src="{{config('app.baseURL')}}/assets/img/vector_one.png" class="vector" alt="Cricket bat" style="width:60%; margin-top: -58%; margin-left: -22%;">
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/vector_one.png" class="vector" alt="Cricket bat" style="width:60%; margin-top: -58%; margin-left: -22%;">
 
 
 
-    <img src="{{config('app.baseURL')}}/assets/img/mask_group_1.png" class="cricket-bat" alt="Cricket bat" style="width:10%; 
+    <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/mask_group_1.png" class="cricket-bat" alt="Cricket bat" style="width:10%; 
     margin-top: -96%;
     margin-left: -38%;">
                 <h6>With Cricmaths,<br>playing and learning <br>is easy-peasy!</h6>
@@ -3922,15 +3868,15 @@ nav a{
 
                 
 
- <img src="{{config('app.baseURL')}}/assets/img/mask_group_1.png" class="cricket-bat" alt="Cricket bat" style="width:5%; 
+ <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/mask_group_1.png" class="cricket-bat" alt="Cricket bat" style="width:5%; 
     margin-top: -9%;
     margin-left: 48%;">
 
     <div class="play_now_div">
 
-                <img src="{{config('app.baseURL')}}/assets/img/mask_group_2.png" class="cricket-bat" alt="Cricket bat" style="width:13%; margin-right: 2%; margin-top: -32px;">
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/mask_group_2.png" class="cricket-bat" alt="Cricket bat" style="width:13%; margin-right: 2%; margin-top: -32px;">
 
-                <a href="{{config('app.baseURL')}}/after-start"><button class="btn play">Play Now</button></a>
+                <a href="<?php echo e(config('app.baseURL')); ?>/after-start"><button class="btn play">Play Now</button></a>
 
     </div>
 
@@ -3940,26 +3886,26 @@ nav a{
             
              <div class="col-md-6">
 
-<!--             <img src="{{config('app.baseURL')}}/assets/img/pngwing_1.png" class="cricket-bat_scaleone" alt="Cricket bat">
+<!--             <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/pngwing_1.png" class="cricket-bat_scaleone" alt="Cricket bat">
  -->               
- <!-- <img src="{{config('app.baseURL')}}/assets/img/pngwing_3.png" class="cricket-bat_wrong_one" alt="Cricket bat" > -->
+ <!-- <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/pngwing_3.png" class="cricket-bat_wrong_one" alt="Cricket bat" > -->
 
 
 
                 
-               <img src="{{config('app.baseURL')}}/assets/mascot/mascot-sum.png" class="cricket-bat-man" alt="Cricket bat">
+               <img src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/mascot-sum.png" class="cricket-bat-man" alt="Cricket bat">
 
-              <!--  <img src="{{config('app.baseURL')}}/assets/img/pngwing_2.png" class="cricket-bat_scale" alt="Cricket bat">
+              <!--  <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/pngwing_2.png" class="cricket-bat_scale" alt="Cricket bat">
 
-               <img src="{{config('app.baseURL')}}/assets/img/pngwing_4.png" class="cricket-bat_divide_one" alt="Cricket bat" >
+               <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/pngwing_4.png" class="cricket-bat_divide_one" alt="Cricket bat" >
  -->
-<!-- <img src="{{config('app.baseURL')}}/assets/img/pngwing_3.png" class="cricket-bat_wrong_two" alt="Cricket bat">
+<!-- <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/pngwing_3.png" class="cricket-bat_wrong_two" alt="Cricket bat">
  -->
             </div>
             
         </div>
 
-    <img src="{{config('app.baseURL')}}/assets/img/home/v1.png" class="v1" alt="Cricket bat" >
+    <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/v1.png" class="v1" alt="Cricket bat" >
 
         
     </div>
@@ -3984,7 +3930,7 @@ nav a{
       </div>
               
 
-<img src="{{config('app.baseURL')}}/assets/img/bat.png" class="decision-cricket-bat" alt="Cricket bat" >
+<img src="<?php echo e(config('app.baseURL')); ?>/assets/img/bat.png" class="decision-cricket-bat" alt="Cricket bat" >
 
     </div>
 
@@ -3993,26 +3939,26 @@ nav a{
         <h2 class="header-text">Top Players</h2>
  <!-- Player Scores -->
 
-      @foreach($students as $student)
+      <?php $__currentLoopData = $students; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $student): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         <div class="player-score" style="display: flex; justify-content: space-between; align-items: center;">
-            @if($student->user->username!="" && $student->user->username!=null)
-            <p>@ {{$student->user->username}}</p> 
-            @else
+            <?php if($student->user->username!="" && $student->user->username!=null): ?>
+            <p>@ <?php echo e($student->user->username); ?></p> 
+            <?php else: ?>
             <p>@ user</p> 
-            @endif
-            <p style="text-align: end;">{{$student->score}}/600</p>
+            <?php endif; ?>
+            <p style="text-align: end;"><?php echo e($student->score); ?>/600</p>
         </div>
-        @endforeach 
+        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?> 
         
         
         
        
     </div>
-        <img src="{{config('app.baseURL')}}/assets/img/trophy-grass.png" class="trophy-grass" alt="Trophy Grass" style="width: 86%;
+        <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/trophy-grass.png" class="trophy-grass" alt="Trophy Grass" style="width: 86%;
     margin-top: -33%;
     margin-left: 7%;">
 
-                <img src="{{config('app.baseURL')}}/assets/img/trophy.png" class="trophy-players-section" alt="Trophy" >
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/trophy.png" class="trophy-players-section" alt="Trophy" >
 
 
 
@@ -4031,37 +3977,33 @@ nav a{
 
 <!--<section class="lets-play">
 
-    <img src="{{config('app.baseURL')}}/assets/img/home/trophy.png" class="letsplay-trophy" alt="Trophy Grass" >
+    <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/trophy.png" class="letsplay-trophy" alt="Trophy Grass" >
 
-  <img src="{{config('app.baseURL')}}/assets/img/home/stumpgrass.png" class="stumpgrass" alt="stump Grass" style="border-radius: 0px;">
-      <img src="{{config('app.baseURL')}}/assets/img/home/row.png" class="arrow" alt="arrow">
+  <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/stumpgrass.png" class="stumpgrass" alt="stump Grass" style="border-radius: 0px;">
+      <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/row.png" class="arrow" alt="arrow">
       <div class="letsplay-div">
 <h4>Let's Play</h4>
 <p>Let’s show you how to be a CricMaths Champ</p>
 </div>
-<<<<<<< HEAD
-      <a href="{{config('app.baseURL')}}/howzzat"><div class="howzzat" style="background-color:#459F01;;">
-=======
       <a href="howzzat"><div class="howzzat" style="background-color:#459F01;;">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
           <h3>Howzzat! Work?</h3>
       </div></a>
  
-  <img src="{{config('app.baseURL')}}/assets/img/home/cartoon.png" class="cartoon" alt="Trophy Grass">
+  <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/cartoon.png" class="cartoon" alt="Trophy Grass">
 
-    <img src="{{config('app.baseURL')}}/assets/img/home/vector.png" class="vector" alt="Trophy Grass">
+    <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/vector.png" class="vector" alt="Trophy Grass">
 
-     <img src="{{config('app.baseURL')}}/assets/img/home/vector_side.png" class="vector_side" alt="Trophy Grass">
+     <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/vector_side.png" class="vector_side" alt="Trophy Grass">
 
-     <img src="{{config('app.baseURL')}}/assets/img/home/vector_side.png" class="vector_side_one" alt="Trophy Grass">
+     <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/vector_side.png" class="vector_side_one" alt="Trophy Grass">
 
 <div class="grass-row row">
 
  <div class="col-md-12">
-        <img src="{{config('app.baseURL')}}/assets/img/home/grass.png" class="grass_one" alt="Trophy Grass" style="border-radius: 0px;">
+        <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/grass.png" class="grass_one" alt="Trophy Grass" style="border-radius: 0px;">
  </div>
  <div class="col-md-12">
-        <img src="{{config('app.baseURL')}}/assets/img/home/grass.png" class="grass_two" alt="Trophy Grass">
+        <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/grass.png" class="grass_two" alt="Trophy Grass">
  </div>
 </div>
 
@@ -4073,12 +4015,12 @@ nav a{
 
     <div class="col-md-4">
       <div class="all-image">
-      <img src="{{config('app.baseURL')}}/assets/img/home/trophy.png" class="letsplay-trophy" alt="Trophy Grass" >
-      <img src="{{config('app.baseURL')}}/assets/img/home/stumpgrass.png" class="stumpgrass" alt="stump Grass" style="border-radius: 0px;">
-<!--       <img src="{{config('app.baseURL')}}/assets/img/home/row.png" class="arrow" alt="arrow">
+      <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/trophy.png" class="letsplay-trophy" alt="Trophy Grass" >
+      <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/stumpgrass.png" class="stumpgrass" alt="stump Grass" style="border-radius: 0px;">
+<!--       <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/row.png" class="arrow" alt="arrow">
  -->      </div>
       <div>
-                  <img src="{{config('app.baseURL')}}/assets/img/home/grass.png" class="grass_one" alt="Trophy Grass" style="border-radius: 0px;">
+                  <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/grass.png" class="grass_one" alt="Trophy Grass" style="border-radius: 0px;">
 
       </div>
 
@@ -4090,10 +4032,10 @@ nav a{
              <p>Let’s show you how to be a CricMaths Champ</p>
         </div>
         <div class="howzzat-btn">
-            <a href="{{config('app.baseURL')}}/howzzat"><button class=" btn howzzat" style="background-color:#459F01;;">Howzzat! Work?</button></a>
+            <a href="<?php echo e(config('app.baseURL')); ?>/howzzat"><button class=" btn howzzat" style="background-color:#459F01;;">Howzzat! Work?</button></a>
         </div>
         <div>
-                <img src="{{config('app.baseURL')}}/assets/img/home/grass.png" class="grass_three" alt="Trophy Grass">
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/grass.png" class="grass_three" alt="Trophy Grass">
 
       </div>
         </div>
@@ -4105,18 +4047,18 @@ nav a{
 
         <div>
 
-<!--                      <img src="{{config('app.baseURL')}}/assets/img/home/vector.png" class="vector" alt="Trophy Grass">
+<!--                      <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/vector.png" class="vector" alt="Trophy Grass">
  -->
-         <img src="{{config('app.baseURL')}}/assets/mascot/mascot-all-the-best.png" class="cartoon" alt="Trophy Grass">
+         <img src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/mascot-all-the-best.png" class="cartoon" alt="Trophy Grass">
 
 
-         <!--<img src="{{config('app.baseURL')}}/assets/img/home/vector_side.png" class="vector_side" alt="Trophy Grass">-->
+         <!--<img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/vector_side.png" class="vector_side" alt="Trophy Grass">-->
 
-        <!--<img src="{{config('app.baseURL')}}/assets/img/home/vector_side.png" class="vector_side_one" alt="Trophy Grass">-->
+        <!--<img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/vector_side.png" class="vector_side_one" alt="Trophy Grass">-->
        </div>
 
        <div>
-                <img src="{{config('app.baseURL')}}/assets/img/home/grass.png" class="grass_two" alt="Trophy Grass">
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/grass.png" class="grass_two" alt="Trophy Grass">
 
       </div>
     </div>
@@ -4140,17 +4082,10 @@ nav a{
                 <h2 class="text-danger mb-4" style="display:none;"></h2>
                 <div class="placeholder-video rounded-3 p-4">
                    
-<<<<<<< HEAD
-<video  controls="" poster="https://cricmaths.com/assets/images/thum.png" style="
+<video  controls="" poster="<?php echo e(config('app.baseURL')); ?>/assets/images/thum.png" style="
     width: 80%;
     height: 250px;">
-  <source src="https://cricmaths.com/assets/images/e1.mp4" type="video/mp4">
-=======
-<video  controls="" poster="{{config('app.baseURL')}}/assets/images/thum.png" style="
-    width: 80%;
-    height: 250px;">
-  <source src="{{config('app.baseURL')}}/assets/images/e1.mp4" type="video/mp4">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+  <source src="<?php echo e(config('app.baseURL')); ?>/assets/images/e1.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
 
 </video>
@@ -4168,23 +4103,23 @@ nav a{
     <div class="container text-center">
         <div class="row justify-content-center">
             <div>
-                <img src="{{config('app.baseURL')}}/assets/img/home/trophy.png" alt="Trophy" class="trophy_upcoming_match">
+                <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/trophy.png" alt="Trophy" class="trophy_upcoming_match">
             </div>
                             <div class="scrollable-container" id="auto-scroll">
 
 
- @php
+ <?php
             $serialNum = 1;
-        @endphp
- @foreach ($liveMatches as $key=>$match)
+        ?>
+ <?php $__currentLoopData = $liveMatches; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key=>$match): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
-    @php
+    <?php
 
         $teamDetails = json_decode($match['team_details'], true);
-    @endphp
-    @if ($match->is_live && 
+    ?>
+    <?php if($match->is_live && 
         isset($teamDetails[0]['teamScore'][0]['runsScored']) && $teamDetails[0]['teamScore'][0]['runsScored'] > 0 &&
-        isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0)
+        isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0): ?>
 
 
  
@@ -4194,31 +4129,27 @@ nav a{
      line-height: 0.75;">
         <span class="live-dot"></span>
         Live
-    </p> <h4 class="text-success">Match: {{$serialNum}}</h4>
-@foreach ($teamDetails as $key => $team)
+    </p> <h4 class="text-success">Match: <?php echo e($serialNum); ?></h4>
+<?php $__currentLoopData = $teamDetails; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $team): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                    
-                    <p class="teamsflex{{$key}} ">{{ $team['teamFullName'] }}</p>
+                    <p class="teamsflex<?php echo e($key); ?> "><?php echo e($team['teamFullName']); ?></p>
 
-@if($key == 0)
+<?php if($key == 0): ?>
                <h3 class="vs-tem">vs</h3>              
-                        @endif
-                @endforeach
-<<<<<<< HEAD
-                    <a href="{{config('app.baseURL')}}/after-start"><button class="btn btn-danger">Play</button></a>
-=======
+                        <?php endif; ?>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     <a href="after-start"><button class="btn btn-danger">Play</button></a>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
                 </div>
 
 
 
 
 
- @php
+ <?php
             $serialNum++;
-        @endphp
-@endif
-@endforeach
+        ?>
+<?php endif; ?>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
             
         </div>
@@ -4235,7 +4166,7 @@ nav a{
         <div class="container text-center">
 
              <div class="col-12 col-md-2 mb-3">
-                    <img src="{{config('app.baseURL')}}/assets/img/home/trophy.png" alt="Trophy" class="trophy_upcoming_match img-fluid">
+                    <img src="<?php echo e(config('app.baseURL')); ?>/assets/img/home/trophy.png" alt="Trophy" class="trophy_upcoming_match img-fluid">
                 </div>
 
             <div class="row justify-content-center align-items-center">
@@ -4245,57 +4176,53 @@ nav a{
 
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        @php
+                        <?php
                             $numSlides = ceil($liveMatches->count() / 3);  // Number of slides needed (3 matches per slide)
-                        @endphp
-                        @for ($i = 0; $i < $numSlides; $i++)
-                            <li data-bs-target="#cricketCarousel" data-bs-slide-to="{{ $i }}" class="@if ($i == 0) active @endif"></li>
-                        @endfor
+                        ?>
+                        <?php for($i = 0; $i < $numSlides; $i++): ?>
+                            <li data-bs-target="#cricketCarousel" data-bs-slide-to="<?php echo e($i); ?>" class="<?php if($i == 0): ?> active <?php endif; ?>"></li>
+                        <?php endfor; ?>
                     </ol>
 
                     <!-- Carousel Inner -->
                     <div class="carousel-inner">
-                        @php
+                        <?php
                             $serialNum = 1;
-                        @endphp
-                        @foreach ($liveMatches->chunk(3) as $key => $matchGroup) <!-- Using Laravel's chunk() -->
-                            <div class="carousel-item @if ($key == 0) active @endif">
+                        ?>
+                        <?php $__currentLoopData = $liveMatches->chunk(3); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $matchGroup): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?> <!-- Using Laravel's chunk() -->
+                            <div class="carousel-item <?php if($key == 0): ?> active <?php endif; ?>">
                                 <div class="row">
-                                    @foreach ($matchGroup as $match)
-                                        @php
+                                    <?php $__currentLoopData = $matchGroup; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $match): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                        <?php
                                             $teamDetails = json_decode($match['team_details'], true);
-                                        @endphp
-                                        @if ($match->is_live && 
+                                        ?>
+                                        <?php if($match->is_live && 
                                             isset($teamDetails[0]['teamScore'][0]['runsScored']) && $teamDetails[0]['teamScore'][0]['runsScored'] > 0 &&
-                                            isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0)
+                                            isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0): ?>
 
                                             <div class="col-12 col-md-4 mb-4">
                                                 <div class="match-card p-3 border rounded">
                                                     <p class="text-danger fw-bold d-flex align-items-center">
                                                         <span class="live-dot me-1"></span> Live
                                                     </p>
-                                                    <h4 class="text-success">Match: {{$serialNum}}</h4>
-                                                    @foreach ($teamDetails as $key => $team)
-                                                        <p class="teamsflex{{$key}}">{{ $team['teamFullName'] }}</p>
-                                                        @if ($key == 0)
+                                                    <h4 class="text-success">Match: <?php echo e($serialNum); ?></h4>
+                                                    <?php $__currentLoopData = $teamDetails; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $team): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                        <p class="teamsflex<?php echo e($key); ?>"><?php echo e($team['teamFullName']); ?></p>
+                                                        <?php if($key == 0): ?>
                                                             <h3 class="vs-tem">vs</h3>
-                                                        @endif
-                                                    @endforeach
-<<<<<<< HEAD
-                                                    <a href="{{config('app.baseURL')}}/after-start"><button class="btn btn-danger">Play</button></a>
-=======
+                                                        <?php endif; ?>
+                                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                                     <a href="after-start"><button class="btn btn-danger">Play</button></a>
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
                                                 </div>
                                             </div>
-                                            @php
+                                            <?php
                                                 $serialNum++;
-                                            @endphp
-                                        @endif
-                                    @endforeach
+                                            ?>
+                                        <?php endif; ?>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                 </div>
                             </div>
-                        @endforeach
+                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </div>
 
                     <!-- Carousel Controls -->
@@ -4309,32 +4236,6 @@ nav a{
                     </a>
                 </div>
             </div>
-<<<<<<< HEAD
-            
-            @php
-                $hasValidMatches = false;
-                foreach ($liveMatches as $match) {
-                    $teamDetails = json_decode($match['team_details'], true);
-                    if ($match->is_live && 
-                        isset($teamDetails[0]['teamScore'][0]['runsScored']) && $teamDetails[0]['teamScore'][0]['runsScored'] > 0 &&
-                        isset($teamDetails[1]['teamScore'][0]['runsScored']) && $teamDetails[1]['teamScore'][0]['runsScored'] > 0) {
-                        $hasValidMatches = true;
-                        break;
-                    }
-                }
-            @endphp
-            
-            @if(!$hasValidMatches)
-                <div class="text-center py-5">
-                    <h3 class="text-danger mb-3" style="font-family: 'Baloo Da 2', sans-serif;">No Live Matches Available</h3>
-                    <p class="mb-4" style="font-family: 'Baloo Da 2', sans-serif;">Practice your math skills while waiting for live matches!</p>
-                    <a href="{{ route('practice.index') }}" class="btn btn-danger btn-lg" style="background-color: #b70303; padding: 15px 40px; font-size: 1.3rem; border-radius: 30px; font-weight: 600; font-family: 'Baloo Da 2', sans-serif;">
-                        🎯 Practice Mode
-                    </a>
-                </div>
-            @endif
-=======
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         </div>
     </div>
 </section>
@@ -4371,4 +4272,5 @@ nav a{
 
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/rahulshendre/Desktop/Coding/PlanetRead/Crickmath/cricmaths_web/resources/views/index.blade.php ENDPATH**/ ?>

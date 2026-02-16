@@ -7,21 +7,16 @@
 <meta name="author" content="Cricmaths">
  <meta name="description" content="Cricmaths: Where Number Meets Cricket">
 <meta name="keywords" content="Cricket, Maths, cricket and maths, learn maths, live cricket scores, play cricket, mathematics, edutainment, mathematics in cricket, cricket education, education, india, numeracy, planet read, Learning Cricket Through Math, school, primary, IPL, World Cup, maths made easy, cricket analytics, Game Theory in Cricket, Mathematical Modelling in Sports, maths teacher, math, algebra, geometry">
-<<<<<<< HEAD
- <link rel="icon" href="https://cricmaths.com/assets/img/image002.png" type="image/x-icon">
-    <link rel="shortcut icon" href="https://cricmaths.com/assets/img/image002.png" type="image/x-icon">
-=======
- <link rel="icon" href="{{config('app.baseURL')}}/assets/img/image002.png" type="image/x-icon">
-    <link rel="shortcut icon" href="{{config('app.baseURL')}}/assets/img/image002.png" type="image/x-icon">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
+ <link rel="icon" href="<?php echo e(config('app.baseURL')); ?>/assets/img/image002.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo e(config('app.baseURL')); ?>/assets/img/image002.png" type="image/x-icon">
 <meta name="robots" content="INDEX,FOLLOW">
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
- <link href="{{config('app.baseURL')}}/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/app.min.css">
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/fontawesome.min.css">
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/style.css">
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/swiper-bundle.css">
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/app.min.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/style.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/swiper-bundle.css">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,13 +26,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
-<head>
+<!--<head>-->
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Your custom CSS -->
-    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
-</head>
+    <!-- <link href="<?php echo e(asset('css/custom.css')); ?>" rel="stylesheet"> -->
+<!--</head>-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YET6XH9PNM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YET6XH9PNM');
+</script>
 
 </head>
 <style>
@@ -79,39 +84,62 @@
      
   
 </style>
-<body>
+<body id="google_translate_element">
 
 
-	@include('layouts.header')
+	<?php echo $__env->make('layouts.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-	@yield('content')
+	<?php echo $__env->yieldContent('content'); ?>
 
-    @include('layouts.footer')	
+    <?php echo $__env->make('layouts.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>	
 
 
 
     <div class="preloader">
    <!-- <button class="vs-btn preloaderCls">Cancel Preloader</button> -->
    <div class="preloader-inner">
-   <img src="{{config('app.baseURL')}}/assets/images/batball.gif" alt="logo">
+   <img src="<?php echo e(config('app.baseURL')); ?>/assets/images/batball.gif" alt="logo">
    </div>
 </div>
      <a href="#" class="scrollToTop scroll-btn">
      <i class="far fa-arrow-up"></i></a>
-      <script src="{{config('app.baseURL')}}/assets/js/vendor/jquery-3.6.0.min.js"></script>
-     <script src="{{config('app.baseURL')}}/assets/js/app.min.js"></script>
-     <script src="{{config('app.baseURL')}}/assets/js/layerslider.utils.js"></script>
-     <script src="{{config('app.baseURL')}}/assets/js/layerslider.transitions.js"></script>
-     <script src="{{config('app.baseURL')}}/assets/js/layerslider.kreaturamedia.jquery.js"></script>
-     <script src="{{config('app.baseURL')}}/assets/js/main.js"></script> 
+      <script src="<?php echo e(config('app.baseURL')); ?>/assets/js/vendor/jquery-3.6.0.min.js"></script>
+     <script src="<?php echo e(config('app.baseURL')); ?>/assets/js/app.min.js"></script>
+     <script src="<?php echo e(config('app.baseURL')); ?>/assets/js/layerslider.utils.js"></script>
+     <script src="<?php echo e(config('app.baseURL')); ?>/assets/js/layerslider.transitions.js"></script>
+     <script src="<?php echo e(config('app.baseURL')); ?>/assets/js/layerslider.kreaturamedia.jquery.js"></script>
+     <script src="<?php echo e(config('app.baseURL')); ?>/assets/js/main.js"></script> 
 
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Google Translate script -->
 
+<script type="text/javascript">
+  // Initialize Google Translate when the page is ready
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      includedLanguages: 'en,hi,mr,te,ta,kn,ml'  // You can include more languages here
+    }, 'google_translate_element');
+  }
+
+  // Function to handle the language change when selecting from dropdown
+  function translatePage() {
+    var selectedLang = document.getElementById("languageSwitcher").value;
+    var translateFrame = document.querySelector('.goog-te-combo'); // Dropdown in Google Translate element
+
+    if (selectedLang !== "") {
+      translateFrame.value = selectedLang; // Set selected language
+      translateFrame.dispatchEvent(new Event('change')); // Trigger the change event to apply translation
+    }
+  }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
      
 
  </body>
- </html>
+ </html><?php /**PATH /Users/rahulshendre/Desktop/Coding/PlanetRead/Crickmath/cricmaths_web/resources/views/layouts/app.blade.php ENDPATH**/ ?>

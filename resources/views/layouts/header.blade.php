@@ -148,6 +148,7 @@ background: #459F01;
                 text-align: center;
                 margin-top: 10px;
             }
+<<<<<<< HEAD
             
             .play-cricket {
                 margin: 5px 0;
@@ -155,6 +156,8 @@ background: #459F01;
                 width: 100%;
                 text-align: center;
             }
+=======
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         }
 
         /* Menu toggle button for mobile */
@@ -244,7 +247,10 @@ background: #459F01;
 
         <!-- Play Button -->
         <a href="{{config('app.baseURL')}}/after-start" class="play-cricket">Play Cricket</a>
+<<<<<<< HEAD
         <a href="{{ route('practice.index') }}" class="play-cricket" style="background-color: #b70303; margin-left: 10px;">Practice Mode</a>
+=======
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
         <a href="{{config('app.baseURL')}}/user-dashboard"><img src="{{config('app.baseURL')}}/assets/images/av2.png" alt="" class="img-fluid rounded-circle" style="width: 50px; height: 50px; object-fit: cover;"></a>
 

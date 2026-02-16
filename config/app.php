@@ -54,7 +54,11 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
+<<<<<<< HEAD
         "baseURL" => env('APP_URL', 'http://localhost'),
+=======
+    "baseURL" => env('APP_BASE_URL', 'http://localhost:8000'),
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 
 
     'asset_url' => env('ASSET_URL', null),

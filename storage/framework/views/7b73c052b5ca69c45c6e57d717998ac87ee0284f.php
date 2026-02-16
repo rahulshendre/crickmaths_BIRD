@@ -1,15 +1,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, orientation=landscape">
 
 
-<link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/swiper-bundle.css">
+<link rel="stylesheet" href="<?php echo e(config('app.baseURL')); ?>/assets/css/swiper-bundle.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<<<<<<< HEAD
-<link href="../../css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-=======
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 <link rel="stylesheet" href="assets/css/app.min.css">
 <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -877,7 +873,7 @@ top: 2%;
 
   }
 
-  @keyframes textclip {
+  @keyframes  textclip {
     to {
       background-position: 200% center;
     }
@@ -896,7 +892,7 @@ top: 2%;
     width: 45%;
   }
 
-  @keyframes fadeIn {
+  @keyframes  fadeIn {
     from {
       opacity: 0;
       transform: translateY(-10px);
@@ -1067,7 +1063,7 @@ top: 2%;
     border-radius: 10px;
   }
 
-  @keyframes glowing-button-85 {
+  @keyframes  glowing-button-85 {
     0% {
       background-position: 0 0;
     }
@@ -1495,7 +1491,7 @@ margin: 0 0 5px 0;
     padding-left: 10px;
 }
 
-   @media screen and (orientation: landscape) {
+   @media  screen and (orientation: landscape) {
             body {
                 background-color: #c0c0c0;
                 font-size: 18px;
@@ -1510,7 +1506,7 @@ margin: 0 0 5px 0;
   }
 
  
- @media screen and (max-width: 1440px) {
+ @media  screen and (max-width: 1440px) {
   .score-botom{
     position: relative;
     top: 6%;
@@ -1541,7 +1537,7 @@ margin: 0 0 5px 0;
     margin: 0 0 12px 0;
 }
 }
-     @media screen and (max-width: 1290px) {
+     @media  screen and (max-width: 1290px) {
       .testResult {
 font-size:24px
 }
@@ -1571,7 +1567,7 @@ font-size:24px
     gap: 3%;
 }
  }   
-  @media screen and (max-width: 946px) and (orientation: landscape) {
+  @media  screen and (max-width: 946px) and (orientation: landscape) {
     .match-item{
       position: relative;
     left: 2%;
@@ -1732,7 +1728,7 @@ input[type=radio]~label:before {
     padding: 3%;
 }
 }
-@media screen and (max-width: 850px) and (orientation: landscape){
+@media  screen and (max-width: 850px) and (orientation: landscape){
   .match-team h6{
   margin: 0px !important;
 }
@@ -1826,7 +1822,7 @@ top:5%;
     padding: 3%;
 }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+@media  screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   /* Add your landscape-specific styles here */
   /* For example, you might reset the rotation and positioning */
   /* html {
@@ -2200,7 +2196,7 @@ top:5%;
 }
 }
 
-/*@keyframes blink {*/
+/*@keyframes  blink {*/
 /*            0% { opacity: 1; }*/
 /*            50% { opacity: 0; }*/
 /*            100% { opacity: 1; }*/
@@ -2232,7 +2228,7 @@ top:5%;
 
             <li><a onclick="openFullscreen()"><i class="fas fa-expand-alt" style="color: white;"></i></a></li>
             <li><a onclick="closeFullscreen()"><i class="fa fa-window-close"></i></a></li>
-            <li> <a type="button" href="{{config('app.baseURL')}}/after-start"><i class="fa fa-power-off" style="color: white;"
+            <li> <a type="button" href="<?php echo e(config('app.baseURL')); ?>/after-start"><i class="fa fa-power-off" style="color: white;"
                   aria-hidden="true"></i></a></li>
           </ul>
         </li>
@@ -2249,40 +2245,40 @@ top:5%;
 
           <div class="match-item">
 
-            @foreach($matchLive as $key=>$matchl)
+            <?php $__currentLoopData = $matchLive; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key=>$matchl): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
            
-            @php
+            <?php
             $teamDetails = json_decode($matchl['team_details'], true);
 
-            @endphp
-            @if($matchl->is_live=='completed')
+            ?>
+            <?php if($matchl->is_live=='completed'): ?>
             <h6>Completed</h6>
-            @else
+            <?php else: ?>
             <h6>Live</h6>
-            @endif
+            <?php endif; ?>
             <div class="vs-match col-lg-8">
-            @foreach ($teamDetails as $index => $team)
-            <div class="teamsflex{{$index}} ">
+            <?php $__currentLoopData = $teamDetails; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $index => $team): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <div class="teamsflex<?php echo e($index); ?> ">
 
               <div class="team-info slant-box-content">
 
-                <h6>{{ $team['teamFullName'] }}</h6>
-                @if (isset($team['teamScore'][0]))
-                <p >Runs Scored: {{ $team['teamScore'][0]['runsScored'] }}/{{ $team['teamScore'][0]['wickets'] }}</p>
+                <h6><?php echo e($team['teamFullName']); ?></h6>
+                <?php if(isset($team['teamScore'][0])): ?>
+                <p >Runs Scored: <?php echo e($team['teamScore'][0]['runsScored']); ?>/<?php echo e($team['teamScore'][0]['wickets']); ?></p>
                 <!-- Add more details for Team 1 score as needed -->
-                @else
+                <?php else: ?>
                 <p>Yet To Bat</p>
-                @endif
+                <?php endif; ?>
 
               </div>
 
             </div>
-            @if ($index < count($teamDetails) - 1)
+            <?php if($index < count($teamDetails) - 1): ?>
                 <h3 class="vs-tem">VS</h3>
-            @endif
-            @endforeach
+            <?php endif; ?>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 </div>
-            @endforeach
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
 
             <h4 id="total-score-display">Total Score: 0</h4>
@@ -2346,7 +2342,7 @@ top:5%;
 </div> -->
 
     <!-- <div id="triviaContainer" class="image-container" style="display: none;">
-    <img src="{{config('app.baseURL')}}/assets/v/mascot-all the best-02.png" alt="Trivia Image" class="trivia-img">
+    <img src="<?php echo e(config('app.baseURL')); ?>/assets/v/mascot-all the best-02.png" alt="Trivia Image" class="trivia-img">
     <div id="triviaText" class="trivia-box"></div>
 </div> -->
 
@@ -2354,7 +2350,7 @@ top:5%;
 <div id="triviaContainer" class="full-screen-container" style="display: none;">
         <button class="close-btn" id="closeTrivia">Close</button>
 
-    <img src="{{config('app.baseURL')}}/assets/v/mascot-all the best-02.png" alt="Trivia Image" class="full-screen-img">
+    <img src="<?php echo e(config('app.baseURL')); ?>/assets/v/mascot-all the best-02.png" alt="Trivia Image" class="full-screen-img">
     <div  class="trivia-box">
 
       <h6>Did You Know?</h6>
@@ -2379,8 +2375,8 @@ top:5%;
       <div class="d-flex flex-row justify-content-evenly align-items-center">
         <input type="hidden" name="user_id" value="3">
         <input type="hidden" name="question_id" value="">
-        <input type="hidden" name="category" value="{{$categoty}}">
-        <input type="hidden" name="grade" id="grade" value="{{$grade}}">
+        <input type="hidden" name="category" value="<?php echo e($categoty); ?>">
+        <input type="hidden" name="grade" id="grade" value="<?php echo e($grade); ?>">
         <!--  <button
                             class="button-85" type="button"><i
                                 class="fa fa-angle-left mt-1 mr-1" id="prev"></i>&nbsp;previous</button> -->
@@ -2489,7 +2485,7 @@ top:5%;
  $(document).ready(function() {
     function fetchData() {
         $.ajax({
-            url: '{{config("app.baseURL")}}/liveScore?match_id=' + "{{$match_id}}",
+            url: '<?php echo e(config("app.baseURL")); ?>/liveScore?match_id=' + "<?php echo e($match_id); ?>",
             method: 'GET',
             dataType: 'json',
             success: function(data) {
@@ -2564,7 +2560,7 @@ $('.teamsflex1').find('p').html('Runs Scored: ' + runsScored[1] + '/' + wickets[
     $.ajax({
       type: "POST",
       url: 'start',
-      data: { category: category,grade: grade, _token: '{{ csrf_token() }}' },
+      data: { category: category,grade: grade, _token: '<?php echo e(csrf_token()); ?>' },
       success: function (data) {
  
 
@@ -2657,7 +2653,7 @@ $('#exit-game').show();
         function replaceWords(sentence, replacements, callback) {
           $.ajax({
             type: "GET",
-            url: '{{config("app.baseURL")}}/getDynamicWords?match_id=0{{ $match_id }}&grade={{ $grade }}',
+            url: '<?php echo e(config("app.baseURL")); ?>/getDynamicWords?match_id=0<?php echo e($match_id); ?>&grade=<?php echo e($grade); ?>',
             success: function (data) {
               for (var key in replacements) {
                 if (replacements.hasOwnProperty(key) && data[key]) {
@@ -2694,7 +2690,7 @@ $('#exit-game').show();
 
           $.ajax({
             type: "GET",
-            url: '{{ config("app.baseURL") }}/getDynamicWords?match_id={{ $match_id }}&grade={{ $grade }}',
+            url: '<?php echo e(config("app.baseURL")); ?>/getDynamicWords?match_id=<?php echo e($match_id); ?>&grade=<?php echo e($grade); ?>',
             success: function (data) {
               var sortedReplacements = sortObjectByKey(data);
 
@@ -2938,7 +2934,7 @@ function strickRateOvers(arr){
 
 //             // Fetch trivia dynamically
 //             $.ajax({
-//                 url: '{{ config("app.baseURL") }}/gettrivo',
+//                 url: '<?php echo e(config("app.baseURL")); ?>/gettrivo',
 //                 method: 'GET',
 //                 data: {
 //                     questionCounter: questionCounter
@@ -3015,7 +3011,7 @@ function opentrivo(index, questionCounter) {
             isOpentrivoRunning = true; // Lock the function
 
             $.ajax({
-                url: '{{ config("app.baseURL") }}/gettrivo',
+                url: '<?php echo e(config("app.baseURL")); ?>/gettrivo',
                 method: 'GET',
                 data: { questionCounter: questionCounter },
                 success: function (response) {
@@ -3093,7 +3089,7 @@ function opentrivo(index, questionCounter) {
 //     // Fetch trivia dynamically
 
 //     $.ajax({
-//         url: '{{ config("app.baseURL") }}/gettrivo',
+//         url: '<?php echo e(config("app.baseURL")); ?>/gettrivo',
 //         method: 'GET',
 //         data: {
 //             questionCounter: questionCounter
@@ -3324,13 +3320,13 @@ scoreboardHTML +='<h3 class="score-message green" >' + numCorrect + ' out of ' +
 scoreboardHTML +='<h3 class="score-message orange" >questions correctly.</h3></div>'
 
           if (percentage >= 0.9) {
-            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> <img class="mascot-image" src="{{config('app.baseURL')}}/assets/mascot/mascot-winner.png"> Incredible! Awesome job!</h6>';
+            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> <img class="mascot-image" src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/mascot-winner.png"> Incredible! Awesome job!</h6>';
           } else if (percentage >= 0.7) {
-            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> Not bad! Keep it up! <img class="mascot-image" src="{{config('app.baseURL')}}/assets/mascot/mascot-cheerup.png"></h6>';
+            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> Not bad! Keep it up! <img class="mascot-image" src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/mascot-cheerup.png"></h6>';
           } else if (percentage >= 0.5) {
-            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> Not bad! Keep it up! <img class="mascot-image" src="{{config('app.baseURL')}}/assets/mascot/mascot-cheerup.png"></h6>';
+            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> Not bad! Keep it up! <img class="mascot-image" src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/mascot-cheerup.png"></h6>';
           } else {
-            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> Better luck next time! <img class="mascot-image" src="{{config('app.baseURL')}}/assets/mascot/mascot- umpire.png"></h6>';
+            scoreboardHTML += '<div class="score-botom"><h6 class="pink"> Better luck next time! <img class="mascot-image" src="<?php echo e(config('app.baseURL')); ?>/assets/mascot/mascot- umpire.png"></h6>';
           }
 
           
@@ -3353,8 +3349,8 @@ $('#total-score-display').append("Total Score:"+addScore+"");
           });
  $.ajax({
             type: "Post",
-            url: '{{config("app.baseURL")}}/scoreBoard',
-            data: { std_id: std_id, teacher_id: teacher_id,score: addScore, correct: numCorrect, noQuestion: noQuestion, _token: '{{ csrf_token() }}' },
+            url: '<?php echo e(config("app.baseURL")); ?>/scoreBoard',
+            data: { std_id: std_id, teacher_id: teacher_id,score: addScore, correct: numCorrect, noQuestion: noQuestion, _token: '<?php echo e(csrf_token()); ?>' },
             success: function (data) {
 
              
@@ -3372,7 +3368,7 @@ updateCounter();
 
         $.ajax({
             type: "GET",
-            url: '{{config("app.baseURL")}}/getDynamicWords?match_id=' + "{{$match_id}}",
+            url: '<?php echo e(config("app.baseURL")); ?>/getDynamicWords?match_id=' + "<?php echo e($match_id); ?>",
             success: function (data) {
                 var sortedReplacements = sortObjectByKey(data);
 
@@ -3436,7 +3432,7 @@ updateCounter();
 
 //         $.ajax({
 //             type: "GET",
-//             url: '{{config("app.baseURL")}}/getDynamicWords?match_id=' + "{{$match_id}}",
+//             url: '<?php echo e(config("app.baseURL")); ?>/getDynamicWords?match_id=' + "<?php echo e($match_id); ?>",
 //             success: function (data) {
 //                 var sortedReplacements = sortObjectByKey(data);
 
@@ -3498,7 +3494,7 @@ updateCounter();
 
 //         $.ajax({
 //             type: "GET",
-//             url: '{{config("app.baseURL")}}/getDynamicWords?match_id=' + "{{$match_id}}",
+//             url: '<?php echo e(config("app.baseURL")); ?>/getDynamicWords?match_id=' + "<?php echo e($match_id); ?>",
 //             success: function (data) {
 //                 var sortedReplacements = sortObjectByKey(data);
 
@@ -3541,12 +3537,12 @@ updateCounter();
 // }
 
         function sendUserAttemptsToServer(userAttempts) {
-          var endpointUrl = '{{config("app.baseURL")}}/saveUserAttempts';
+          var endpointUrl = '<?php echo e(config("app.baseURL")); ?>/saveUserAttempts';
 
           $.ajax({
             type: "POST",
             url: endpointUrl,
-            data: { userAttempts: JSON.stringify(userAttempts), _token: '{{ csrf_token() }}' },
+            data: { userAttempts: JSON.stringify(userAttempts), _token: '<?php echo e(csrf_token()); ?>' },
             success: function (response) {
   
             },
@@ -3574,8 +3570,8 @@ updateCounter();
 
           $.ajax({
             type: "Post",
-            url: '{{config("app.baseURL")}}/score',
-            data: { categoryId: categoryId, correct: numCorrect, noQuestion: noQuestion, _token: '{{ csrf_token() }}' },
+            url: '<?php echo e(config("app.baseURL")); ?>/score',
+            data: { categoryId: categoryId, correct: numCorrect, noQuestion: noQuestion, _token: '<?php echo e(csrf_token()); ?>' },
             success: function (data) {
 
               var tableContainer = $('#question');
@@ -3732,15 +3728,12 @@ function resetTimeline() {
 
     // Function to update the timer every second
     function updateTimer() {
-<<<<<<< HEAD
-=======
         // Check if timer element exists
         const timerElement = document.getElementById('timer');
         if (!timerElement) {
             return; // Exit if element doesn't exist
         }
 
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         // Increment seconds
         seconds++;
 
@@ -3762,11 +3755,7 @@ function resetTimeline() {
         const formattedSeconds = seconds.toString().padStart(2, '0');
 
         // Display the time in the timer element
-<<<<<<< HEAD
-        document.getElementById('timer').innerHTML = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
-=======
         timerElement.innerHTML = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
->>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     }
 
     // Update the timer every second (1000 milliseconds)
@@ -3789,3 +3778,4 @@ function resetTimeline() {
 
 
 
+<?php /**PATH /Users/rahulshendre/Desktop/Coding/PlanetRead/Crickmath/cricmaths_web/resources/views/answer.blade.php ENDPATH**/ ?>

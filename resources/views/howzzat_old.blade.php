@@ -323,8 +323,12 @@ opacity: 0px;
 
     .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 500px;
     height: 575px;
@@ -425,8 +429,12 @@ opacity: 0px;
 
  .image-container {
         content: "";
+<<<<<<< HEAD
         /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+        background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         background-size: cover;
         width: 250px;
         height: 285px;
@@ -539,8 +547,12 @@ opacity: 0px;
 
  .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 277px;
     height: 325px;
@@ -570,8 +582,12 @@ opacity: 0px;
 
   .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 277px;
     height: 325px;
@@ -599,8 +615,12 @@ opacity: 0px;
 
   .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 277px;
     height: 325px;
@@ -789,8 +809,12 @@ opacity: 0px;
 
      .image-container {
         content: "";
+<<<<<<< HEAD
         /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+        background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
         background-size: cover;
         width: 315px;
         height: 368px;
@@ -898,8 +922,12 @@ opacity: 0px;
 
  .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 277px;
     height: 325px;
@@ -1005,8 +1033,12 @@ opacity: 0px;
 
  .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 277px;
     height: 325px;
@@ -1109,8 +1141,12 @@ opacity: 0px;
 
  .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 306px;
     height: 355px;
@@ -1192,8 +1228,12 @@ opacity: 0px;
 
 .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 343px;
     height: 394px;
@@ -1219,8 +1259,12 @@ opacity: 0px;
 
   .image-container {
     content: "";
+<<<<<<< HEAD
     /* background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center; */
     background: url(/assets/img/howzzat/vector.png) no-repeat center;
+=======
+    background: url(http://localhost/crickmatch/assets/img/howzzat/vector.png) no-repeat center;
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
     background-size: cover;
     width: 439px;
     height: 505px;

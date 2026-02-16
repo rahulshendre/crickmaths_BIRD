@@ -7,12 +7,21 @@
 <meta name="author" content="Cricmaths">
  <meta name="description" content="Cricmaths: Where Number Meets Cricket">
 <meta name="keywords" content="Cricket, Maths, cricket and maths, learn maths, live cricket scores, play cricket, mathematics, edutainment, mathematics in cricket, cricket education, education, india, numeracy, planet read, Learning Cricket Through Math, school, primary, IPL, World Cup, maths made easy, cricket analytics, Game Theory in Cricket, Mathematical Modelling in Sports, maths teacher, math, algebra, geometry">
+<<<<<<< HEAD
  <link rel="icon" href="https://cricmaths.com/assets/img/image002.png" type="image/x-icon">
     <link rel="shortcut icon" href="https://cricmaths.com/assets/img/image002.png" type="image/x-icon">
 <meta name="robots" content="INDEX,FOLLOW">
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
  <link href="{{config('app.baseURL')}}/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+=======
+ <link rel="icon" href="{{config('app.baseURL')}}/assets/img/image002.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{config('app.baseURL')}}/assets/img/image002.png" type="image/x-icon">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 <link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/app.min.css">
 <link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/fontawesome.min.css">
 <link rel="stylesheet" href="{{config('app.baseURL')}}/assets/css/style.css">
@@ -31,7 +40,11 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Your custom CSS -->
+<<<<<<< HEAD
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+=======
+    <!-- <link href="{{ asset('css/custom.css') }}" rel="stylesheet"> -->
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 <!--</head>-->
 
 <!-- Google tag (gtag.js) -->

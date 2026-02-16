@@ -90,6 +90,7 @@ Route::get('gettrivo', ['middleware' =>'auth', 'uses' =>'PublicController@gettri
 //    return View::make("answer");
 // });
 
+<<<<<<< HEAD
 // Practice Mode Routes
 Route::get('practice', 'PracticeController@index')->name('practice.index');
 Route::post('practice/start', 'PracticeController@start')->name('practice.start');
@@ -97,6 +98,8 @@ Route::get('practice/play', 'PracticeController@play')->name('practice.play');
 Route::post('practice/answer', 'PracticeController@submitAnswer')->name('practice.answer');
 Route::get('practice/results', 'PracticeController@results')->name('practice.results');
 
+=======
+>>>>>>> 8c8fe2ef21608af48e2d1a70a942aef351021100
 Route::get('questions/create', [QuestionController::class, 'create'])->name('questions.create');
 Route::post('questions', [QuestionController::class, 'store'])->name('questions.store');
 
