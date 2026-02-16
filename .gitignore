@@ -2,6 +2,16 @@
 /public/hot
 /public/storage
 /storage/*.key
+/storage/app/*
+!/storage/app/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
 /vendor
 .env
 .env.backup
@@ -14,10 +24,17 @@ yarn-error.log
 /.idea
 /.vscode
 
+# Large files
 *.zip
 *.mp4
+*.mov
+*.avi
+*.mkv
 /vendor.zip
 /archive.zip
 /cric_20_11.zip
 /assets/mascot.zip
+/assets/gallery.zip
 /assets/images/*.mp4
+/resources/views/*.zip
+/assets/resources/views/*.zip
