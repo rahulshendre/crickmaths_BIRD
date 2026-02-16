@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.mcciapune.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="https://www.mcciapune.com/static/assets/images/logos/Favicon.png" type="image/png">
+
+    <title>MCCIA</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./MCCIA_files/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script type="text/javascript" async="" src="./MCCIA_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-CDkofqMo6hSAPRh2TZj9HOLusb5hze4z6vkh6YWvd810w+KTuT5lucK9hQN36Xh7"></script><script type="text/javascript" async="" src="./MCCIA_files/analytics.js.download"></script><script type="text/javascript" async="" src="./MCCIA_files/js"></script><script type="text/javascript" async="" src="./MCCIA_files/js(1)"></script><script src="./MCCIA_files/jquery.min.js.download"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="./MCCIA_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./MCCIA_files/main.css">
+    
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/> -->
+<style>
+    .carousel-control-next-icon{
+        width: 40px;
+        height: 40px;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23003961' viewBox='0 0 16 16' %3e%3cpath fill-rule='evenodd' d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z'/%3e%3c/svg%3e");
+    }
+    .carousel-control-prev-icon{
+        width: 40px;
+        height: 40px;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23003961' viewBox='0 0 16 16' %3e%3cpath fill-rule='evenodd' d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z'/%3e%3c/svg%3e");
+    }
+</style>
+
+    <meta name="google-site-verification" content="mUfuI_xlJQb2wlMy486Mc7oGEHLatJ3LvBkVGqXhwNo">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,600i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet"> -->
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="./MCCIA_files/js(2)"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3NGCEDDZ97');
+    </script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="" cz-shortcut-listen="true"><div class="calendly-badge-widget"><div class="calendly-badge-content" style="background: rgb(0, 105, 255); color: rgb(255, 255, 255);">Schedule time with MCCIA HoDs<span>powered by Calendly</span></div></div>
+
+
+<!-- header start-->
+<nav class="navbar smart-scroll navbar-expand-lg navbar-light bg-light scrolled-up">
+  <div class="container mobile-container">
+    <a class="navbar-brand" href="https://www.mcciapune.com/"><img src="./MCCIA_files/logo-mccia-white-blue-new.png" alt="mccia-logo"></a>
+    <button class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.mcciapune.com/memberships/membership-landing-page/">MEMBERSHIP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.mcciapune.com/events/events-landing-page/">EVENTS</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.mcciapune.com/#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://www.mcciapune.com/services/advisory/">ADVISORY</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/hallbookings/hall-landing-page/">BOOK A HALL</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/hallbookings/hall-landing-page/?lounge=lounge">MCCIA Members' Lounge Booking</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/certificate-of-origin/">CERTIFICATE OF ORIGIN</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/visarecommendation/visa-recommendation-service/">VISA RECOMMENDATION</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/services/library/">LIBRARY</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/services/mediation-centre/">MEDIATION CENTRE</a>
+                <a class="dropdown-item" href="https://www.mcciapune.com/services/aefc/">AGRI EXPORT FACILITATION CENTER</a>
+                
+                <a class="dropdown-item" href="https://www.mcciapune.com/services/sustainability-desk/">SUSTAINABILITY DESK</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/committees/electronic-cluster/">INITIATIVES</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.mcciapune.com/#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INITIATIVES</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/auto-cluster/">AUTO CLUSTER</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/electronic-cluster/">ELECTRONICS CLUSTER</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/mfg-lean-transfer/">MFG. LEAN TRANSFER</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/technology-transfer/">TECHNOLOGY TRANSFER</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/awards/">AWARDS</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/ppcr/">PPCR</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/udo/">URBAN DATA OBSERVATORY</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/puneafc/">PUNE AFC</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/msme/">MSME FACILITATION DESK</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/digital-directory-landing-page/">DIGITAL DIRECTORY</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/cewe/">CEWE</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/initiatives/pibs/">PIBS</a>
+                    <!-- <a class="dropdown-item" href="#">PHOTO GALLERY</a> -->
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.mcciapune.com/#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEDIA</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://www.mcciapune.com/publications/mccia-blog/">MCCIA BLOG</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/publications/publication-sampada/">SAMPADA</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/publications/publication-annual-report/">ANNUAL REPORT</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/publications/other-publication-landing/">OTHER PUBLICATIONS</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciamedia/government-updates/">GOVERNMENT UPDATES</a>
+                    <!-- <a class="dropdown-item" href="#">PHOTO GALLERY</a> -->
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.mcciapune.com/#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/about_us/">ABOUT MCCIA</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/vision_tab/">VISION AND MISSION</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/executive-board/">EXECUTIVE BOARD</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/leadership_tab/">EXECUTIVE COMMITTEE</a>
+                    <a class="dropdown-item pull-left" href="https://www.mcciapune.com/committees/agriculture/">COMMITTEES</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/team_tab/">OUR TEAM</a>
+                    <!-- <ul class="dropdown-menu dropdown-menu-right committees-list" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/committees/agriculture/">AGRICULTURE</a></li>
+                        <li><a class="dropdown-item" href="/committees/corporate-legislation-committee">CORPORATE LEGISLATION</a></li>
+                        <li><a class="dropdown-item" href="/committees/defence-committee">DEFENCE</a></li>
+                        <li><a class="dropdown-item" href="/committees/electronics-committee">ELECTRONICS</a></li>
+                        <li><a class="dropdown-item" href="/committees/food-processing/">FOOD PROCESSING</a></li>
+                        <li><a class="dropdown-item" href="/committees/foreign-trade-committee">FOREIGN TRADE</a></li>
+                        <li><a class="dropdown-item" href="/committees/foreign-trade-committee">HIGHER EDUCATION AND SKILL DEVELOPMENT</a></li>
+                        <li><a class="dropdown-item" href="/committees/hr-ir-committee/">HR & IR</a></li>
+                        <li><a class="dropdown-item" href="/committees/IT-ITES-committee/">IT & ITES</a></li>
+                        <li><a class="dropdown-item" href="/committees/innovation-incubation-committee/">INNOVATION & INCUBATION</a></li>
+                        <li><a class="dropdown-item" href="/committees/sme-committee/">MSME</a></li>
+                        <li><a class="dropdown-item" href="/committees/taxation-committee/">TAXATION</a></li>
+                        <li><a class="dropdown-item" href="/committees/women-entrepreneurs-committee/">WOMEN ENTREPRENEURS</a></li>
+                    </ul> -->
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/past_presidents_tab/">PAST PRESIDENT</a>
+                    <a class="dropdown-item" href="https://www.mcciapune.com/mcciaadmin/contact-us/">CONTACT US</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a id="extra" class="nav-link">|</a>
+            </li>
+
+            <!-- <ul class="nav navbar-nav "> -->
+            <div class="LoginPanel ">
+                
+                    <li class="nav-item" style="cursor:pointer"><a class="nav-link" data-toggle="modal" data-target="#membershipLogin">LOGIN</a></li>
+
+                    
+            </div>
+        </ul>
+    </div>
+  </div>
+</nav>
+<!-- header end -->
+
+<!-- login section -->
+<div class="modal modal-login fade" id="membershipLogin" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-login modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <button type="button" class="close close-login font-weight-dark" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <div class="text-center">
+                    <!-- <img src="/static/assets/images/logos/Logo-mccia.svg" class="my-3" alt="mccia-logo"> -->
+                    <img src="./MCCIA_files/logo-mccia-white-blue-new.png" class="my-3" width="135" alt="mccia-logo">
+                </div>
+
+                <form class="login-form p-3" id="login_form" method="post">
+                    <div class="loginSection" id="loginSection">
+                        <div class="text-center">
+                            <h5 class="modal-label mb-4" id="loginLabel">Sign in</h5>
+                        </div>
+
+                        <div class="form-group">
+                            <!-- <label class="formlabel" >Username or Email ID</label> -->
+                            <input class="form-control" name="username" type="text" id="username" placeholder="Username or Email ID">
+                            <label id="nouser" style="color:red; display:none;"></label>
+                            <label id="invuser" style="color:red; display:none;"></label>
+
+                            <div class="text-right">
+                                <p><a href="javascript:;" class="forgot-link font-weight-normal" style="font-size:14px;" onclick="onLoginTypeClick(&#39;loginSection&#39;,&#39;forgotPassSectionusrn&#39;)">Forgot Username?</a></p>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <!-- <label class="formlabel">Password</label> -->
+                            <input name="password" type="password" id="mpassword" class="form-control" placeholder="Password">
+                            <label id="nopass" style="color:red; display:none;"></label>
+                            <label id="inpass" style="color:red; display:none;"></label>
+
+                            <div class="text-right">
+                                <p><a href="javascript:;" class="forgot-link font-weight-normal" style="font-size:14px;" onclick="onLoginTypeClick(&#39;loginSection&#39;,&#39;forgotPassSection&#39;)">Forgot Password?</a></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LcO58EfAAAAAOExv8csaRRUpX0a7Q5iEtPv3n1J"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-lvcuazz9l6w1" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./MCCIA_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./MCCIA_files/saved_resource.html"></iframe></div>
+                        </div>
+                        <div class="text-center custom-control pl-0">
+                            <p class="login-button"><button type="button" class="btn px-5 py-2" onclick="Login();" id="_ctl0_imgLogin">Login</button></p>
+                            <!--<p class="formlabel mb-0"><a href="/memberships/membership-landing-page/">Not yet a member?</a></p>-->
+                            <p class="formlabel"><a style="font-size:20px;" href="https://www.mcciapune.com/memberships/user-signup-form/">Sign up</a></p>
+                            <p>Facing trouble logging in? Contact Membership Department at 020-25709000.</p>
+
+                        </div>
+                    </div>
+                </form>
+
+                <form class="login-form" id="forgot_form" method="post">
+                    <div class="forgotSection" id="forgotPassSection" style="display:none">
+                        <div class="text-center">
+                            <h5 class="modal-label mb-5" id="forgotLabel">Forgot Password?</h5>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="formlabel">
+                                <ul>
+                                    <li>For members, please enter Membership No.</li>
+                                    <li>For non-members, please enter Email ID</li>
+                                  </ul>
+                            </label>
+                            <input type="text" class="form-control" name="membership_no" id="membership_no">
+                            <label id="fguser" style="color:grey; display:none;"></label>
+                            <label id="link" style="color:grey; display:none;"></label>
+                        </div>
+                        
+                        
+
+                        <div class="text-center custom-control pl-0">
+                            <p class="pt-4 pb-3"><button type="button" class="btn px-5 py-2" onclick="forgot_password()">Send Reset Link</button></p>
+                            <p class="formlabel pb-5 mr-0"><a href="javascript:;" onclick="onLoginTypeClick(&#39;forgotPassSection&#39;,&#39;loginSection&#39;)">Back to Login</a></p>
+                        </div>
+                    </div>
+                </form>
+
+                 <div class="forgotSection" id="forgotPassSectionusrn" style="display:none">
+                        <p style="font-size:18px;">" The Username is the Email ID or Membership Number associated with the account. If you do not know the email ID, Please get in touch with our Membership Department at 02025709168 for your account details."</p>
+                        <div class="text-center custom-control pl-0">
+                            <p class="formlabel pb-5 mr-0"><a href="javascript:;" onclick="onLoginTypeClick(&#39;forgotPassSectionusrn&#39;,&#39;loginSection&#39;)">Back to Login</a></p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End login -->
+
+
+
+<!-- home page start -->
+
+<!-- home video start -->
+<div>
+    <video id="myVideo" autoplay="" muted="" loop="">
+        <source src="/static/assets/images/landing_images/landing_video.mp4" type="video/mp4">
+    </video>
+    <div class="overlay container-fluid h-auto">
+        <p id="video-first-text" class="text-center">MCCIA</p>
+        <p id="video-second-text" class="text-center">Maharashtra's Largest Industry Network</p>
+        <div class="row justify-content-center">
+            <a href="https://www.mcciapune.com/memberships/membership-landing-page/" class="btn btn-event video-left">Become a Member</a>
+            <a href="https://www.mcciapune.com/mcciaadmin/about_us/" class="btn btn-event video-right">Learn More About Us</a>
+        </div>
+    </div>
+</div>
+<!-- home video end -->
+
+
+<div class="container-fluid text-center my-3">
+    <h1 class="head-text text-center"><span>Latest Updates</span></h1>
+</div>
+<!-- carousel start -->
+<div id="carouselExampleControls" class="carousel slide my-3 pointer-event" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+        
+            
+                <li data-target="#carouselExampleControls" data-slide-to="1" class=""></li>
+            
+        
+            
+                <li data-target="#carouselExampleControls" data-slide-to="2" class=""></li>
+            
+        
+            
+                <li data-target="#carouselExampleControls" data-slide-to="3" class="active"></li>
+            
+        
+    </ol>
+    <div class="container carousel-inner active">
+        <!--  -->
+        
+        
+        <div class="carousel-item">
+            <a href="https://www.mcciapune.com/events/events-detail-page/1724/"><img class="d-block mx-auto" src="./MCCIA_files/PIBS_WEB_BANNER.png"></a>
+        </div>
+        
+        
+        
+        <div class="carousel-item">
+            <a href="https://www.mcciapune.com/events/events-detail-page/1724/"><img class="d-block mx-auto" src="./MCCIA_files/PIBS_webBanners_02.png"></a>
+        </div>
+        
+        
+        
+        <div class="carousel-item active">
+            <a href="https://www.mcciapune.com/events/events-detail-page/1724/"><img class="d-block mx-auto" src="./MCCIA_files/PIBS_webBanners_03.png"></a>
+        </div>
+        
+        
+        </div>
+    <a class="carousel-control-prev" href="https://www.mcciapune.com/#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="https://www.mcciapune.com/#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="false"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- carousel end -->
+
+
+
+
+
+
+  
+  <!-- Carousel Starts -->
+
+  <!-- <div class="carousel">
+    <div class="wrapper">
+      <div class="slide">
+        <img src="https://i.ibb.co/L6Vt5CF/Cyber-Security-and-Data-Protection-for-MSMEs.jpg"  width="90%">
+      </div>
+      <div class="slide">
+        <img src="https://i.ibb.co/RghGXCr/Increase-efficiency-and-value-to-the-customers-using-Lean-techniques.jpg" width="90%">
+      </div>
+      <div class="slide">
+        <img src="https://i.ibb.co/L6Vt5CF/Cyber-Security-and-Data-Protection-for-MSMEs.jpg"  width="90%">
+      </div>
+      <div class="slide">
+        <img src="https://i.ibb.co/RghGXCr/Increase-efficiency-and-value-to-the-customers-using-Lean-techniques.jpg" class="responsive" width="90%">
+      </div>
+      <div class="slide">
+        <img src="https://i.ibb.co/YLS8CwQ/8-D-Eight-Disciplines-of-Problem-Solving-Methodology.jpg" class="responsive" width="90%">
+      </div>
+      <div class="slide">
+        <img src="https://i.ibb.co/L6Vt5CF/Cyber-Security-and-Data-Protection-for-MSMEs.jpg" class="responsive" width="90%">
+      </div>
+    </div>
+  </div>   -->
+
+  <!--Carousel Ends-->
+  
+
+
+
+
+<!-- home Our Services start -->
+<div id="service-tab-container">
+    <div id="services-tab">
+        <div class="container-fluid services-container text-center">
+        <div class="row">
+            <div class="col-12">
+                <!-- <div class="container">
+                    <div class="mt-5">
+                        <h1 class="head-text"><span>NEWS</span></h1>
+                    </div>
+                    <p class="head-sub-text text-center pt-3"style="color: red;">Owing to our Hon'ble PM's visit to Pune, for logistical purposes, the SB Road and Tilak Road branches of MCCIA shall remain closed on Tuesday, 1st August 2023.
+                        These branches, instead, will be operational on Saturday, 12th August.</p>
+                </div> -->
+                <div class="container">
+                    <div class="mt-5">
+                        <h1 class="head-text"><span>OUR SERVICES</span></h1>
+                    </div>
+                    <p class="head-sub-text text-center pt-3">Maximise your potential with our wide range of services designed to empower your business</p>
+                </div>
+            </div>
+            <div class="col-12 pb-5">
+                <div class="container services-design">
+                    <div class="row py-3">
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow-lg p-3 bg-white rounded">
+                                <div class="text-center my-3">
+                                    <img src="./MCCIA_files/Service1.svg" class="card-img-top img-fluid" alt="interactive">
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <p class="head-sub-text">Interaction with Government</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow-lg p-3 bg-white rounded">
+                                <div class="text-center my-3">
+                                    <img src="./MCCIA_files/Service2.svg" class="card-img-top img-fluid" alt="interactive">
+                                </div>
+                                <div class="card-body  d-flex flex-column">
+                                    <p class="head-sub-text">Decoding the Regulatory Framework</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow-lg p-3 bg-white rounded">
+                                <div class="text-center my-3">
+                                    <img src="./MCCIA_files/Service3.svg" class="card-img-top img-fluid" alt="interactive">
+                                </div>
+                                <div class="card-body">
+                                    <p class="head-sub-text">Policy Advocacy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow-lg p-3 bg-white rounded">
+                                <div class="text-center my-3">
+                                    <img src="./MCCIA_files/Service4.svg" class="card-img-top img-fluid" alt="interactive">
+                                </div>
+                                <div class="card-body">
+                                    <p class="head-sub-text">Business Networking</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow-lg p-3 bg-white rounded">
+                                <div class="text-center my-3">
+                                    <img src="./MCCIA_files/Service5.svg" class="card-img-top img-fluid" alt="interactive">
+                                </div>
+                                <div class="card-body">
+                                    <p class="head-sub-text">Learning and
+                                        Development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow-lg p-3 bg-white rounded">
+                                <div class="text-center my-3">
+                                    <img src="./MCCIA_files/Service6.svg" class="card-img-top img-fluid" alt="interactive">
+                                </div>
+                                <div class="card-body">
+                                    <p class="head-sub-text">Expert Advisory
+                                        Services</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row my-3">
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow p-3 mb-5 bg-white rounded left" id="spanner-left">
+                                <div class="my-3">
+                                    <h3 class="card-text">IT STARTS WITH AN INITIATIVE</h3>
+                                    <div class="card-body px-2">
+                                        <p>Learn more about our initiatives
+                                            and our contributions
+                                            to the industry
+                                        </p>
+                                    </div> 
+                                </div>
+                                <a href="#" class="btn btn-primary mt-auto w-auto mx-auto">Know More</a>
+                            </div>
+                        </div>
+
+                        <div class="col wrench-icon"></div>
+                        
+                        <div class="col d-flex justify-content-center mob-padding">
+                            <div class="card py-4 shadow p-3 mb-5 bg-white rounded right" id="spanner-right">
+                                <div class="my-3">
+                                    <h3 class="card-text">IT THRIVES WITH
+                                        COLLABORATION</h3>
+                                    <div class="card-body px-2">
+                                        <p>Our committees cater to various
+                                            industry segments, headed by
+                                            leaders to work together to
+                                            strenghten the industry</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-auto w-auto mx-auto">Know More</a>
+                            </div>
+                        </div>
+                    </div> -->
+                        
+                    <div class="circle-svg img-fluid mt-5">
+                        <div class="img-border">
+                            <div class="impact-del">
+                                <p id="impact-text">IMPACT DELIVERED</p>
+                                <p id="impact-sub-text">FY2022 at a Glimpse</p>
+                            </div>
+                            <img class="text-center circle-svg w-auto img-fluid" src="./MCCIA_files/Circle.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    </div>
+</div>
+<!-- home Our Services end -->
+
+<!-- MCCIA Members start -->
+<div class="container-fluid MCCIA-Members-container py-5">
+    <div class="row">
+        <div class="col-md-9 text-center">
+            <div class="container logo-container"><!-- Also had classes px-md-5 md-auto -->
+                <h2 class="head-text text-center"><span>Our Members</span></h2>
+                <!-- Row 1 -->
+                <div class="row justify-content-between align-items-center py-4 mob-logo-padding">
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/Fiat.svg" alt="Fiat">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/bajaj.svg" alt="bajaj">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/persistent.svg" alt="persistent">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/bank-of-maharashtra-seeklogo.svg" alt="bom">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/kirloskar.svg" alt="kirloskar">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/garware.svg" alt="garware">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/electronica.svg" alt="electronica">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/gestamp.svg" alt="gestamp">
+                    </div>
+                    <div class="d-flex col p-4 justify-content-center align-items-center logo-section">
+                        <img class="img-fluid-member" src="./MCCIA_files/Bharat Forge.svg" alt="bharatForge">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="divider"></div>
+            <h2 class="text-center py-3">Sign Up for Our Newsletter</h2>
+            <p>Get regular updates on events and news from MCCIA.</p><br>
+            <input type="text" class="form-control mx-auto" placeholder="Name" name="name" required=""><br>
+            <input type="text" class="form-control mx-auto" placeholder="Organisation" name="organisation" required=""><br>
+            <input type="text" class="form-control mx-auto" placeholder="Email address" name="mail" required=""><br>
+            <!-- <input type="button" value="Subscribe" style="background-color: #0082DE;"> -->
+            <button type="submit" class="btn btn-event px-5">Submit</button>
+        </div>
+    </div>
+</div>
+
+<!-- MCCIA Members end -->
+
+<!-- home page end -->
+
+<div class="darkblue">
+</div>
+<div class="bottom-footer-section shadow-lg">
+    <div class="container-fluid">
+        <div class="row justify-content-between py-3">
+            <div class="col-md-3">
+                <img id="footer-logo" class="mb-2 w-75" src="./MCCIA_files/logo-mccia-white.png">
+                <p class="footer-section m-0">MAHRATTA CHAMBER OF COMMERCE,<br> INDUSTRIES AND AGRICULTURE</p>
+            </div>
+            <div class="col-md-1 p-0">
+                <!-- <p class="footer-section">MAHRATTA CHAMBER OF COMMERCE, INDUSTRIES AND AGRICULTURE</p> -->
+            </div>
+            <div class="col-md-4 text-center">
+                <p class="last-footer-text mob-footer-text-sec">505, A-Wing, MCCIA Trade Tower,<br>403, Senapati Bapat Road, Pune-411 016 INDIA. </p>
+                <p class="last-footer-text mob-footer-text-sec"><a href="tel:+91 020 2570 9000" class="ml-2 last-footer-text mob-footer-text-sec"> +91 20 2570 9000</a> <a href="mailto:info@mcciapune.com" class="ml-2 last-footer-text mob-footer-text-sec"> info@mcciapune.com</a> </p>
+                <p class="last-footer-text mob-footer-text-sec"><a href="https://mcciapune.com/media/printmedia/MCCIA_Terms_of_Use.pdf" class="last-footer-text mob-footer-text-sec">Terms of Use</a> <a href="https://mcciapune.com/media/printmedia/MCCIA_Privacy_Policy.pdf" class="ml-2 last-footer-text mob-footer-text-sec">Privacy Policy</a></p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3 text-center">
+                <div id="white" class="divider"></div>
+                <div class="border-bottom-line">
+                    <h4 class="text-white pb-3">Stay Connected</h4>
+                </div>
+                <div class="row justify-content-center">
+                        <a href="https://twitter.com/MCCIA_Pune" target="_blank" rel="noopener noreferrer"><img class="ml-3" src="./MCCIA_files/twitter2.svg" alt="MCCIA Twitter Link"></a>
+                        <a href="https://www.youtube.com/punemccia" target="_blank" rel="noopener noreferrer"><img class="ml-3" src="./MCCIA_files/youtube2.svg" alt="MCCIA Youtube Link"></a>
+                        <a href="https://www.facebook.com/punemccia" target="_blank" rel="noopener noreferrer"><img class="ml-3" src="./MCCIA_files/fb2.svg" alt="MCCIA Facebook Link"></a>
+                </div>
+                <div class="row justify-content-center pt-2 ">
+                    <a href="https://www.linkedin.com/company/mcciapune/" target="_blank" rel="noopener noreferrer"><img class="ml-3" src="./MCCIA_files/linkedin2.svg" alt="MCCIA LinkedIn Link"></a>
+                    <a href="https://www.instagram.com/mccia.pune/" target="_blank" rel="noopener noreferrer"><img class="ml-3" src="./MCCIA_files/instagram2.svg" alt="MCCIA Facebook Link"></a>
+                    <a href="https://api.whatsapp.com/send?phone=0918806109000" target="_blank" rel="noopener noreferrer"><img class="ml-3" src="./MCCIA_files/whatsapp.svg" height="40px" alt="MCCIA Facebook Link"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <p class="last-footer-text mob-copyright-text">Copyright © MCCIA 2023. All rights reserved. </p>
+                <a href="https://www.mcciapune.com/committees/click/" target="_blank">Managed by Pixaflip Technologies Pune</a>
+            </div>
+                
+        </div>
+    </div>
+</div>
+
+<!-- footer end -->
+<script async="" src="./MCCIA_files/js(3)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127033364-1');
+</script>
+
+<script type="text/javascript">
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            var navLinks = document.getElementsByClassName('nav-link');
+
+            Array.prototype.filter.call(navLinks, function(navLink) {
+                if (window.location.pathname.indexOf(navLink.getAttribute("href")) !== -1) {
+                    navLink.parentElement.classList.add("active");
+                }
+            });
+        }, false);
+    })();
+
+
+     function change_admin_url()
+    {
+        var pathname = window.location.pathname; // Returns path only
+        location_url_ID= pathname.split('/')[2]
+
+        if ( location_url_ID == "membership-form-admin"){
+                location.href = "/membershipapp/membership-form-admin/";
+        }
+        else{
+            location.href = '/membershipapp/membership-form/'
+        }
+    }
+
+
+    var url_string = window.location.href
+        var url = new URL(url_string);
+        if (url.searchParams != undefined){
+            var lf = url.searchParams.get("lf");
+            if (lf == 'true') {
+                    $("#open_dropdown").addClass('open');
+            }
+        }
+
+
+
+    function validatelogin(){
+        if(username("#username")&mpassword("#mpassword")) {
+            return true;
+        }
+        return false;
+    }
+
+
+    function username(username){
+        username = $(username).val()
+        if(username!=''){
+            $("#nouser").css("display", "none");
+            return true;
+        } else {
+            $("#nouser").css("display", "block");
+            $('#nouser').text("Please Enter username");
+            return false;
+        }
+    }
+
+    function mpassword(mpassword){
+        mpassword = $(mpassword).val()
+        if(mpassword!=''){
+            $("#nopass").css("display", "none");
+            return true;
+        } else {
+            $("#nopass").css("display", "block");
+            $('#nopass').text("Please Enter Password");
+            return false;
+        }
+    }
+
+    function Login(){
+        if (validatelogin()){
+                $.ajax({
+                    type : 'POST',
+                    url : '/mcciaadmin/member-sign_in/',
+                    data : $("#login_form").serialize(),
+                    success: function(response) {
+                    if(response.success=='true'){
+                        var pathname = window.location.pathname; // Returns path only
+                        login_flag = true;
+                        window.location.href = pathname+'?lf='+login_flag
+                    }else if(response.success=='Invalid User'){
+                        bootbox.alert({
+                            "className" : "my-custom-class",
+                            "message": "This user is Deactivated. Please contact to Membership Department.",
+                        });
+                    }else if(response.success=='Invalid Username'){
+                        $("#invuser").css("display", "block");
+                        $('#invuser').text("Invalid Username");
+                        return false;
+                    }else if(response.success=='Invalid Password'){
+                        $("#invuser").css("display", "none");
+                        $("#inpass").css("display", "block");
+                        $('#inpass').text("Invalid Password");
+                        return false;
+                    }else if(response.success=='Not Found'){
+                        $("#inpass").css("display", "none");
+                        $("#invuser").css("display", "block");
+                        $('#invuser').text("Invalid Username");
+                        return false;
+                        }
+                    },
+                error: function(response){
+                alert(response.abc);
+                        console.log('error',response);
+            },
+                    });
+        }
+    }
+
+    function forgot_password(){
+        $.ajax({
+            type : 'POST',
+            url : '/mcciaadmin/send-mail/',
+            data : $("#forgot_form").serialize(),
+            success: function(response) {
+                if(response.success=='true')
+                        {
+                        $("#fguser").css("display", "none");
+                        $("#link").css("display", "block");
+                        $('#link').text("Password reset link is sent to registered email id.");
+                        return false;
+
+                    setTimeout(function(){window.location.href = "/"}, 1000);
+                }else if(response.success=='false') {
+                        $("#link").css("display", "none");
+                        $("#fguser").css("display", "block");
+                        $('#fguser').text("Sorry, we could not find any Email ID or membership number. If you do not know the Email ID or membership number, Please get in touch with our Membership Department at 02025709168 for your account details.");
+                        return false;
+                    }
+                else if(response.success=='Invalid Username'){
+                bootbox.alert({
+                            "className" : "my-custom-class",
+                            "message": "Please enter valid Username",
+                        });
+                }else if(response.success=='Invalid Password'){
+                    bootbox.alert({
+                            "className" : "my-custom-class",
+                            "message": "Please enter valid Password ",
+                        });
+                }else if(response.success=='false1'){
+                    $("#inactive").modal('show');
+                }
+            },
+            beforeSend: function () {
+                $("#processing").css('display','block');
+            },
+            complete: function () {
+                $("#processing").css('display','none');
+            },
+        error: function(response){
+                console.log('error',response);
+            },
+        });
+    }
+
+</script>
+
+<!--Navbar JS for Scroll Functionality-->
+<script>
+    // add padding top to show content behind navbar
+ $('body').css($('.navbar').outerHeight() + 'px')
+
+ // detect scroll top or down
+ if ($('.smart-scroll').length > 0) { // check if element exists
+     var last_scroll_top = 0;
+     $(window).on('scroll', function() {
+         scroll_top = $(this).scrollTop();
+         if(scroll_top < last_scroll_top) {
+             $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+         }
+         else {
+             $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+         }
+         last_scroll_top = scroll_top;
+     });
+ }
+ </script>
+
+
+    <!-- <script src="/static/assets/js/homepage.js" type="text/javascript"></script> -->
+    <!-- <script src="/static/assets/js/header.js" type="text/javascript"></script> -->
+    <!-- <script src="/static/assets/js/slick.min.js" type="text/javascript"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    
+    <!-- <script>
+        $('.carousel-inner').slick({
+            dots: true,
+            centerMode: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            // responsive: [
+            // {
+            //     breakpoint: 480,
+            //     settings: {
+            //     centerPadding: '40px',
+            //     }
+            // }
+            // ]
+        });
+    </script> -->
+    <!-- Calendly badge widget begin -->
+<link href="./MCCIA_files/widget.css" rel="stylesheet">
+<script src="./MCCIA_files/widget.js.download" type="text/javascript" async=""></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ganeshmate/mccia', text: 'Schedule time with MCCIA HoDs', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
+<!-- Calendly badge widget end -->
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./MCCIA_files/bootbox.min.js.download" type="text/javascript"></script>
+<script src="./MCCIA_files/common-validation.js.download" type="text/javascript"></script>
+<!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+<!--<script src="/static/assets/js/header.js" type="text/javascript"></script>-->
+<!-- <script src="js/bootstrap-dropdownhover.min.js"></script> -->
+<script src="./MCCIA_files/bootstrap.bundle.min.js.download" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<script src="./MCCIA_files/api.js.download"></script>
+
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-lvcuazz9l6w1" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./MCCIA_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
